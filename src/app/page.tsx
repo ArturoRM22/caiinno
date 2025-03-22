@@ -1,103 +1,102 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div>
+      {/* Navigation Section */}
+      <div className="bg-light-blue pt-26">
+        <div className="container mx-auto pb-60">
+          <div className="flex flex-col justify-center gap-8 text-white">
+            <a href="#quienes-somos" className="text-5xl font-semibold hover:text-black">
+              ¿QUIÉNES SOMOS?
+            </a>
+            <a href="#que-hacemos" className="text-5xl font-semibold hover:text-black">
+              ¿QUÉ HACEMOS?
+            </a>
+            <a href="#impacto" className="text-5xl font-semibold hover:text-black">
+              IMPACTO
+            </a>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="text-center font-bold pb-10 text-4xl">
+          WE THINK BIG, WE WANT CHANGES
+        </div>
+      </div>
+
+      {/* Sections */}
+      <section id="quienes-somos" className="min-h-screen bg-white pb-10 pt-20">
+        <div className="container mx-auto ">
+          {/* Title */}
+          <h2 className="text-5xl font-bold mb-20">¿QUIÉNES SOMOS?</h2>
+
+          {/* Subtitle */}
+          <p className="text-4xl font-semibold mb-18">
+            CAIINNO: Innovación que transforma México.
+          </p>
+
+          {/* Description */}
+          <p className="text-2xl mb-18">
+            CAIINNO es un centro de análisis dedicado a impulsar la innovación, la transparencia y la inclusión en México. A través de investigaciones y proyectos estratégicos, trabajamos para resolver los retos más urgentes del país y construir un futuro más próspero y equitativo.
+          </p>
+
+          {/* Button */}
+          <Link
+          href="/quienes-somos"
+          className="inline-block px-6 py-3 bg-text-logo text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+          >
+            Saber más
+          </Link>
+        </div>
+      </section>
+
+
+      <section id="que-hacemos" className="min-h-screen bg-que-hacemos pb-10 pt-20">
+        <div className="container mx-auto text-white">
+          {/* Title */}
+          <h2 className="text-5xl font-bold mb-20">¿QUÉ HACEMOS?</h2>
+
+
+          {/* Description */}
+          <p className="text-2xl mb-18">
+            En CAIINNO, nos dedicamos a impulsar la innovación como motor de cambio para construir un México más transparente, inclusivo y próspero. Somos un think tank que combina investigación, tecnología y creatividad para generar soluciones concretas a los desafíos más urgentes del país.
+          </p>
+
+          {/* Subtitle */}
+          <p className="text-4xl font-semibold mb-18 text-center">
+            Nuestro trabajo se enfoca en 9 áreas clave, siempre con la innovación como eje central:
+          </p>
+
+          <div className="w-full flex justify-center items-center gap-4">
+            <Image
+              src="/9areas.png"
+              alt="9 areas"
+              width={1000}
+              height={100}
+              priority
+            />
+          </div>
+
+          {/* Button */}
+          <div className="flex justify-center items-center mt-20">
+            <Link
+            href="/que-hacemos"
+            className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+            >
+              Saber más
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section id="impacto" className="min-h-screen bg-white py-16">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-8">Impacto</h2>
+          <p className="text-lg">
+            Nuestro trabajo ha impactado a miles de personas en todo el mundo.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
