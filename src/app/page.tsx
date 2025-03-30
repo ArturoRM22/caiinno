@@ -1,3 +1,4 @@
+import CarouselWithNavigation from "@/components/Carousel/carousel";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,25 +6,7 @@ export default function Home() {
   return (
     <div>
       {/* Navigation Section */}
-      <div className="bg-light-blue pt-26">
-        <div className="container mx-auto pb-60">
-          <div className="flex flex-col justify-center gap-8 text-white">
-            <a href="#quienes-somos" className="text-5xl font-semibold hover:text-black">
-              ¿QUIÉNES SOMOS?
-            </a>
-            <a href="#que-hacemos" className="text-5xl font-semibold hover:text-black">
-              ¿QUÉ HACEMOS?
-            </a>
-            <a href="#impacto" className="text-5xl font-semibold hover:text-black">
-              IMPACTO
-            </a>
-          </div>
-        </div>
-        <div className="text-center font-bold pb-10 text-4xl">
-          WE THINK BIG, WE WANT CHANGES
-        </div>
-      </div>
-
+      <CarouselWithNavigation/>
       {/* Sections */}
       <section id="quienes-somos" className="min-h-screen bg-white pb-10 pt-20">
         <div className="container mx-auto ">
@@ -69,7 +52,7 @@ export default function Home() {
 
           <div className="w-full flex justify-center items-center gap-4">
             <Image
-              src="/9areas.png"
+              src="/9areas.jpg"
               alt="9 areas"
               width={1000}
               height={100}
