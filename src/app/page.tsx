@@ -1,4 +1,5 @@
 import CarouselWithNavigation from "@/components/Carousel/carousel";
+import PrivacySection from "@/components/privacySection";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -72,14 +73,57 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="impacto" className="min-h-screen bg-white py-16">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-8">Impacto</h2>
-          <p className="text-lg">
-            Nuestro trabajo ha impactado a miles de personas en todo el mundo.
-          </p>
+      <section id="impacto" className="min-h-screen bg-white py-16 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-[#004b8d]">IMPACTO</h2>
+          
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Left Column */}
+            <div className="space-y-8">
+              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
+                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Índices de Referencia</h3>
+                <p className="text-lg">
+                  Hemos desarrollado índices nacionales de ciencia, tecnología e innovación que son referencia para gobiernos, academia y sector privado.
+                </p>
+              </div>
+
+              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
+                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Investigaciones con Impacto</h3>
+                <p className="text-lg">
+                  Nuestras investigaciones sobre mujeres inventoras y patentes verdes han influido en reformas legislativas y políticas públicas.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Column */}
+            <div className="space-y-8">
+              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
+                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Herramientas Innovadoras</h3>
+                <p className="text-lg">
+                  Creamos herramientas como <span className="font-bold">Informo Voto</span>, reconocida como una de las mejores plataformas de educación cívica en México.
+                </p>
+              </div>
+
+              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
+                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Colaboraciones Internacionales</h3>
+                <p className="text-lg">
+                  Colaboramos con organismos internacionales como el <span className="font-bold">Banco Interamericano de Desarrollo (BID)</span>, la <span className="font-bold">ONU</span> y la <span className="font-bold">Organización Mundial de la Propiedad Intelectual (OMPI)</span>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Button */}
+        <div className="flex justify-center items-center mt-20">
+          <Link
+            href="/impacto"
+            className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+            >
+            Saber más
+          </Link>
         </div>
       </section>
+      <PrivacySection/>
     </div>
   );
 }
