@@ -59,8 +59,8 @@ export default function CarouselWithNavigation() {
                 <a href="#quienes-somos" className="text-5xl font-semibold hover:text-black transition-colors">
                   ¿QUIÉNES SOMOS?
                 </a>
-                <a href="#que-hacemos" className="text-5xl font-semibold hover:text-black transition-colors">
-                  ¿QUÉ HACEMOS?
+                <a href="#nuestro-objetivo" className="text-5xl font-semibold hover:text-black transition-colors">
+                  NUESTRO OBJETIVO
                 </a>
                 <a href="#impacto" className="text-5xl font-semibold hover:text-black transition-colors">
                   IMPACTO

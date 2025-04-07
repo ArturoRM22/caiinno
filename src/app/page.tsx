@@ -1,5 +1,6 @@
 import CarouselWithNavigation from "@/components/Carousel/carousel";
 import PrivacySection from "@/components/privacySection";
+import PublicationsCarousel from "@/components/Carousel/publications-carousel";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,8 +10,8 @@ export default function Home() {
       {/* Navigation Section */}
       <CarouselWithNavigation/>
       {/* Sections */}
-      <section id="quienes-somos" className="min-h-screen bg-white pb-10 pt-20">
-        <div className="container mx-auto ">
+      <section id="quienes-somos" className="min-h-screen bg-quienes-somos pb-10 pt-20">
+        <div className="container mx-auto text-white">
           {/* Title */}
           <h2 className="text-5xl font-bold mb-20">¿QUIÉNES SOMOS?</h2>
 
@@ -21,34 +22,31 @@ export default function Home() {
 
           {/* Description */}
           <p className="text-2xl mb-18">
-            CAIINNO es un centro de análisis dedicado a impulsar la innovación, la transparencia y la inclusión en México. A través de investigaciones y proyectos estratégicos, trabajamos para resolver los retos más urgentes del país y construir un futuro más próspero y equitativo.
+            CAIINNO es una think tank constituida por personas que viven en México después de terminar estudios de posgrado en el extranjero, buscando generar un cambio positivo en México, aprovechando su experiencia, conocimiento y contactos obtenidos, principalmente como beneficiarios de la beca Fulbright.
           </p>
 
           {/* Button */}
           <Link
           href="/quienes-somos"
-          className="inline-block px-6 py-3 bg-text-logo text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+          className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
           >
             Saber más
           </Link>
         </div>
       </section>
 
-
-      <section id="que-hacemos" className="min-h-screen bg-que-hacemos pb-10 pt-20">
-        <div className="container mx-auto text-white">
+      <section id="nuestro-objetivo" className="min-h-screen bg-que-hacemos pb-10 pt-20">
+      <div className="container mx-auto text-white">
           {/* Title */}
-          <h2 className="text-5xl font-bold mb-20">¿QUÉ HACEMOS?</h2>
-
+          <h2 className="text-5xl font-bold mb-20">NUESTRO OBJETIVO</h2>
 
           {/* Description */}
-          <p className="text-2xl mb-18">
-            En CAIINNO, nos dedicamos a impulsar la innovación como motor de cambio para construir un México más transparente, inclusivo y próspero. Somos un think tank que combina investigación, tecnología y creatividad para generar soluciones concretas a los desafíos más urgentes del país.
+          <p className="text-2xl mb-8">
+            Ayudar a resolver algunos de los retos que enfrenta México en 9 áreas, a través de investigaciones, propuestas y ejecución de proyectos, que permitan tener un país más transparente, incluyente e innovador. Para ello aplicamos los principios de la INNOVACIÓN así como nuestra experiencia y conocimientos.
           </p>
 
-          {/* Subtitle */}
-          <p className="text-4xl font-semibold mb-18 text-center">
-            Nuestro trabajo se enfoca en 9 áreas clave, siempre con la innovación como eje central:
+          <p className="text-3xl mb-18 text-center font-bold">
+            Además, buscamos que nuestros proyectos tengan un enfoque transversal que beneficie e impacte a las 9 áreas de trabajo:
           </p>
 
           <div className="w-full flex justify-center items-center gap-4">
@@ -64,7 +62,7 @@ export default function Home() {
           {/* Button */}
           <div className="flex justify-center items-center mt-20">
             <Link
-            href="/que-hacemos"
+            href="/nuestro-objetivo"
             className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
             >
               Saber más
@@ -75,40 +73,69 @@ export default function Home() {
 
       <section id="impacto" className="min-h-screen bg-white py-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-[#004b8d]">IMPACTO</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-12">IMPACTO</h2>
           
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Left Column */}
-            <div className="space-y-8">
-              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
-                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Índices de Referencia</h3>
-                <p className="text-lg">
-                  Hemos desarrollado índices nacionales de ciencia, tecnología e innovación que son referencia para gobiernos, academia y sector privado.
-                </p>
+          <div className="space-y-6 mb-5 text-lg md:text-2xl">
+            <div className="flex items-start gap-4 p-6 rounded-lg border-l-4 border-black bg-white text-black">
+              {/* Image container with fixed dimensions */}
+              <div className="relative w-16 h-16 flex-shrink-0">
+                <Image
+                  src="/iconoReformas.png"
+                  alt="icono reformas de ley"
+                  fill
+                  className="object-contain"
+                />
               </div>
-
-              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
-                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Investigaciones con Impacto</h3>
-                <p className="text-lg">
-                  Nuestras investigaciones sobre mujeres inventoras y patentes verdes han influido en reformas legislativas y políticas públicas.
-                </p>
+              
+              <div className="flex-1">
+                <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
+                  <h3 className="font-semibold mb-2">Reformas</h3>
+                  <div>
+                    <h3 className="mb-2">Hemos logrado provocar la generación de reformas de ley</h3>
+                  </div>
+                </Link>
               </div>
             </div>
 
-            {/* Right Column */}
-            <div className="space-y-8">
-              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
-                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Herramientas Innovadoras</h3>
-                <p className="text-lg">
-                  Creamos herramientas como <span className="font-bold">Informo Voto</span>, reconocida como una de las mejores plataformas de educación cívica en México.
-                </p>
+            <div className="flex items-start gap-4 p-6 rounded-lg border-l-4 border-black bg-white text-black">
+              {/* Image container with fixed dimensions */}
+              <div className="relative w-16 h-16 flex-shrink-0">
+                <Image
+                  src="/iconoAgendas.png"
+                  alt="icono agendas"
+                  fill
+                  className="object-contain"
+                />
               </div>
+              
+              <div className="flex-1">
+                <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
+                  <h3 className="font-semibold mb-2">Investigaciones con Impacto</h3>
+                  <div>
+                    <h3 className="mb-2">Nuestras investigaciones son referencia en la generación de agendas públicas y de gobierno, así como para la elaboración de políticas públicas.</h3>
+                  </div>
+                </Link>
+              </div>
+            </div>
 
-              <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
-                <h3 className="text-2xl font-semibold mb-4 text-[#004b8d]">Colaboraciones Internacionales</h3>
-                <p className="text-lg">
-                  Colaboramos con organismos internacionales como el <span className="font-bold">Banco Interamericano de Desarrollo (BID)</span>, la <span className="font-bold">ONU</span> y la <span className="font-bold">Organización Mundial de la Propiedad Intelectual (OMPI)</span>.
-                </p>
+            <div className="flex items-start gap-4 p-6 rounded-lg border-l-4 border-black bg-white text-black">
+              {/* Image container with fixed dimensions */}
+              <div className="relative w-16 h-16 flex-shrink-0">
+                <Image
+                  src="/iconoLibros.png"
+                  alt="icono libros"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              
+              <div className="flex-1">
+                <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
+                  <h3 className="font-semibold mb-2">Información confiable</h3>
+                  <div>
+                    <h3 className="mb-2">Nuestro trabajo es fuente de información y referencia para investigaciones académicas nacionales e internacionales</h3>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -118,12 +145,13 @@ export default function Home() {
           <Link
             href="/impacto"
             className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
-            >
+          >
             Saber más
           </Link>
         </div>
       </section>
-      <PrivacySection/>
+        <PublicationsCarousel />
+        <PrivacySection/>
     </div>
   );
 }
