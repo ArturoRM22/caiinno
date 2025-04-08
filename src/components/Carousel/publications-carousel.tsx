@@ -61,13 +61,13 @@ export default function PublicationsCarousel() {
             {publications.map((publication, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <Link href={publication.url} className="block p-4 hover:opacity-90 transition-opacity">
-                  <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
+                  <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-white">
                     <Image
                       src={publication.image}
                       alt={publication.title}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-cover"
+                      className="object-contain p-2"
                       priority={index === 0}
                     />
                   </div>
@@ -81,6 +81,14 @@ export default function PublicationsCarousel() {
           <CarouselPrevious className="absolute left-4" />
           <CarouselNext className="absolute right-4" />
         </Carousel>
+        <div className="flex justify-center mt-10">
+          <Link
+            href="/publicaciones"
+            className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+          >
+            Ver todas las publicaciones
+          </Link>
+        </div>
       </div>
     </div>
   )

@@ -16,7 +16,7 @@ export default function AvisoDePrivacidad() {
 
       {/* Introductory Paragraph */}
       <p className="text-xs md:text-sm text-gray-700 mb-8 leading-relaxed">
-        Reconociendo la importancia que tiene el tratamiento legítimo, controlado e informado de los datos personales de los visitantes y usuarios de nuestro sitio web, ponemos a su disposición el presente Aviso de Privacidad, a fin de que conozca nuestras prácticas al obtener, usar, almacenar y, en general, tratar sus datos personales e imágenes que se obtienen a través de videograbaciones, fotografías, registros o bitácoras de acceso a nuestro portal web (en adelante y conjuntamente los "Datos Personales"), de conformidad con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y demás normatividad aplicable (en adelante "la Ley").
+        Reconociendo la importancia que tiene el tratamiento legítimo, controlado e informado de los datos personales de los visitantes y usuarios de nuestro sitio web, ponemos a su disposición el presente Aviso de Privacidad, a fin de que conozca nuestras prácticas al obtener, usar, almacenar y, en general, tratar sus datos personales e imágenes que se obtienen a través de videograbaciones, fotografías, registros o bitácoras de acceso a nuestro portal web (en adelante y conjuntamente los &quot;Datos Personales&quot;), de conformidad con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y demás normatividad aplicable (en adelante &quot;la Ley&quot;).
       </p>
 
       <p className="text-xs md:text-sm text-gray-700 mb-12 italic">

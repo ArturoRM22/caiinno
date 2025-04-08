@@ -1,8 +1,5 @@
 import LazyYouTube from '@/components/lazyYoutube'
 import React from 'react'
-import { IoBookSharp } from "react-icons/io5";
-import { IoIosPaper } from "react-icons/io";
-import { GoLaw } from "react-icons/go";
 import Link from 'next/link';
 import Image from 'next/image';
 

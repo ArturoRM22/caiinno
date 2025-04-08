@@ -3,6 +3,8 @@ import Link from "next/link"
 import { FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -60,6 +62,24 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     >
                     <FaYoutube size={30} className="text-[#FF0000]"/>
+                </Link>
+                <Link 
+                    href="https://www.youtube.com/@caiinnomedia2089/featured" 
+                    aria-label="Instagram" 
+                    className="hover:opacity-80 transition-opacity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    <FaInstagramSquare size={30} className="text-black"/>
+                </Link>
+                <Link 
+                    href="https://www.linkedin.com/company/caiinno/" 
+                    aria-label="Linkedin" 
+                    className="hover:opacity-80 transition-opacity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    <FaLinkedin size={30} className="text-[#2969b2]"/>
                 </Link>
             </div>
           </div>
