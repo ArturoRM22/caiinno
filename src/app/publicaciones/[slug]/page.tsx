@@ -1,5 +1,5 @@
-import Publication from '@/components/Publication';
 import { publications } from '@/data/publications';
+import Publication from '@/components/Publication';
 import { notFound } from 'next/navigation';
 
 export async function generateStaticParams() {
@@ -8,16 +8,17 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function PublicationPage({
-  params: { slug },
-}: {
-  params: { slug: string };
+export default async function PublicationPage({ 
+  params 
+}: { 
+  params: { slug: string } 
 }) {
-  const publication = publications.find((p) => p.slug === slug);
+  const paramsData = await params;
+  const publication = publications.find((p) => p.slug === paramsData.slug);
 
   if (!publication) {
     notFound();
   }
 
   return <Publication {...publication} />;
-} 
+}
