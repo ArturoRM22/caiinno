@@ -15,7 +15,7 @@ export default function CarouselWithNavigation() {
   )
 
   // Sample image URLs - replace with your actual images
-  const images = ["/carousel/1.jpg", "/carousel/2.jpg", "/carousel/3.jpg"]
+  const images = ["/carousel/1.jpg", "/carousel/2.jpg", "/carousel/3.jpg", "/carousel/4.jpg", "/carousel/5.jpg", "/carousel/6.jpg", "/carousel/7.jpg", "/carousel/8.jpg"]
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
@@ -56,13 +56,19 @@ export default function CarouselWithNavigation() {
           <div className="flex-grow pt-26">
             <div className="container mx-auto pb-60">
               <div className="flex flex-col justify-center gap-8 text-white">
-                <a href="#quienes-somos" className="text-5xl font-semibold hover:text-black transition-colors">
+                <a href="#quienes-somos" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
                   ¿QUIÉNES SOMOS?
                 </a>
-                <a href="#nuestro-objetivo" className="text-5xl font-semibold hover:text-black transition-colors">
+                <a href="#nuestro-objetivo" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
                   NUESTRO OBJETIVO
                 </a>
-                <a href="#impacto" className="text-5xl font-semibold hover:text-black transition-colors">
+                <a href="#que-pretendemos" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
+                  ¿QUÉ PRETENDEMOS?
+                </a>
+                <a href="#como-lo-hacemos" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
+                  ¿CÓMO LO HACEMOS?
+                </a>
+                <a href="#impacto" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
                   IMPACTO
                 </a>
               </div>

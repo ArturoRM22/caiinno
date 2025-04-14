@@ -46,8 +46,8 @@ export default function Footer() {
                     <FaFacebook size={30} className="text-[#1877F2]"/>
                 </Link>
                 <Link 
-                    href="https://twitter.com/caiinno?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3Acaiinno%7Ctwcon%5Es2" 
-                    aria-label="Twitter" 
+                    href="https://x.com/CaiinnoOficial" 
+                    aria-label="X" 
                     className="hover:opacity-80 transition-opacity"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -62,15 +62,6 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     >
                     <FaYoutube size={30} className="text-[#FF0000]"/>
-                </Link>
-                <Link 
-                    href="https://www.youtube.com/@caiinnomedia2089/featured" 
-                    aria-label="Instagram" 
-                    className="hover:opacity-80 transition-opacity"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    <FaInstagramSquare size={30} className="text-black"/>
                 </Link>
                 <Link 
                     href="https://www.linkedin.com/company/caiinno/" 

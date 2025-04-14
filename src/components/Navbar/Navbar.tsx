@@ -31,7 +31,6 @@ export default function Navbar() {
           <Link href="/" className="hover:underline">Inicio</Link>
           <Link href="/quienes-somos" className="hover:underline">¿Quiénes somos?</Link>
           <Link href="#about-us" className="hover:underline">About us</Link>
-          <Link href="#apoya" className="hover:underline">Apoya</Link>
           <Link href="#areas-de-investigacion" className="hover:underline">Áreas de Investigación</Link>
           <Link href="#actividades" className="hover:underline">Actividades</Link>
           <Link href="/publicaciones" className="hover:underline">Publicaciones</Link>

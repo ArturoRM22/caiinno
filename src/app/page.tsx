@@ -8,10 +8,26 @@ export default function Home() {
   return (
     <div>
       {/* Navigation Section */}
-      <CarouselWithNavigation/>
+      <section id="main" className="relative min-h-screen overflow-hidden">
+        <CarouselWithNavigation/>
+      </section>
       {/* Sections */}
-      <section id="quienes-somos" className="min-h-screen bg-quienes-somos pb-10 pt-20">
-        <div className="container mx-auto text-white">
+      <section id="quienes-somos" className="relative min-h-screen pb-10 pt-20 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/carousel/6.jpg" // Make sure to add your image to the public folder
+            alt="Background Quienes Somos"
+            fill
+            className="object-cover"
+            priority
+          />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/50" />
+        </div>
+
+        {/* Content */}
+        <div className="container mx-auto text-white relative z-10">
           {/* Title */}
           <h2 className="text-5xl font-bold mb-20">¿QUIÉNES SOMOS?</h2>
 
@@ -21,14 +37,14 @@ export default function Home() {
           </p>
 
           {/* Description */}
-          <p className="text-2xl mb-18">
+          <p className="text-2xl mb-18 text-justify">
             CAIINNO es una think tank constituida por personas que viven en México después de terminar estudios de posgrado en el extranjero, buscando generar un cambio positivo en México, aprovechando su experiencia, conocimiento y contactos obtenidos, principalmente como beneficiarios de la beca Fulbright.
           </p>
 
           {/* Button */}
           <Link
-          href="/quienes-somos"
-          className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+            href="/quienes-somos"
+            className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
           >
             Saber más
           </Link>
@@ -41,11 +57,11 @@ export default function Home() {
           <h2 className="text-5xl font-bold mb-20">NUESTRO OBJETIVO</h2>
 
           {/* Description */}
-          <p className="text-2xl mb-8">
+          <p className="text-2xl mb-8 text-justify">
             Ayudar a resolver algunos de los retos que enfrenta México en 9 áreas, a través de investigaciones, propuestas y ejecución de proyectos, que permitan tener un país más transparente, incluyente e innovador. Para ello aplicamos los principios de la INNOVACIÓN así como nuestra experiencia y conocimientos.
           </p>
 
-          <p className="text-3xl mb-18 text-center font-bold">
+          <p className="text-3xl mb-18 text-center font-bold text-justify">
             Además, buscamos que nuestros proyectos tengan un enfoque transversal que beneficie e impacte a las 9 áreas de trabajo:
           </p>
 
@@ -67,6 +83,36 @@ export default function Home() {
             >
               Saber más
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section id="que-pretendemos" className="min-h-screen bg-white pb-10 pt-20">
+        <div className="container mx-auto">
+          <h2 className="text-5xl font-bold mb-20">¿QUÉ PRETENDEMOS?</h2>
+          <div className="w-full flex justify-center items-center">
+            <Image
+              src="/quePretendemos_2.jpg"
+              alt="¿Qué pretendemos?"
+              width={1000}
+              height={100}
+              priority
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="como-lo-hacemos" className="min-h-screen bg-white pb-10 pt-20">
+        <div className="container mx-auto">
+          <h2 className="text-5xl font-bold mb-20">¿CÓMO LO HACEMOS?</h2>
+          <div className="w-full flex justify-center items-center">
+            <Image
+              src="/comoLoHacemos_2.jpg"
+              alt="¿Cómo lo hacemos?"
+              width={1000}
+              height={100}
+              priority
+            />
           </div>
         </div>
       </section>
@@ -112,7 +158,7 @@ export default function Home() {
                 <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
                   <h3 className="font-semibold mb-2">Investigaciones con Impacto</h3>
                   <div>
-                    <h3 className="mb-2">Nuestras investigaciones son referencia en la generación de agendas públicas y de gobierno, así como para la elaboración de políticas públicas.</h3>
+                    <h3 className="mb-2 text-justify">Nuestras investigaciones son referencia en la generación de agendas públicas y de gobierno, así como para la elaboración de políticas públicas.</h3>
                   </div>
                 </Link>
               </div>
@@ -133,7 +179,7 @@ export default function Home() {
                 <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
                   <h3 className="font-semibold mb-2">Información confiable</h3>
                   <div>
-                    <h3 className="mb-2">Nuestro trabajo es fuente de información y referencia para investigaciones académicas nacionales e internacionales</h3>
+                    <h3 className="mb-2 text-justify">Nuestro trabajo es fuente de información y referencia para investigaciones académicas nacionales e internacionales</h3>
                   </div>
                 </Link>
               </div>

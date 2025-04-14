@@ -5,12 +5,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Autoplay from "embla-carousel-autoplay"
 import { useRef } from "react"
 import Link from "next/link"
-
-interface Publication {
-  image: string
-  title: string
-  url: string
-}
+import { publications } from "@/data/publications"
 
 export default function PublicationsCarousel() {
   const autoplay = useRef(
@@ -20,29 +15,6 @@ export default function PublicationsCarousel() {
       stopOnMouseEnter: true
     })
   )
-
-  const publications: Publication[] = [
-    {
-      image: "/publications/mujeres-inventoras-patentando-en-mexico.png",
-      title: "Mujeres Inventoras: Patentando en México",
-      url: "/publicaciones/mujeres-inventoras"
-    },
-    {
-      image: "/publications/ramo-38.png",
-      title: "Observatorio Electoral Ramo 38",
-      url: "/publicaciones/ramo-38"
-    },
-    {
-      image: "/publications/industrias-creativas.png",
-      title: "Banco de datos de industrias culturales y creativas",
-      url: "/publicaciones/industrias-creativas"
-    },
-    {
-      image: "/publications/indice-cti-2018.png",
-      title: "ÍNDICE NACIONAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN 2018",
-      url: "/publicaciones/indice-cti-2018"
-    }
-  ]
 
   return (
     <div className="relative w-full overflow-hidden bg-slate-100 py-10" >
@@ -58,21 +30,45 @@ export default function PublicationsCarousel() {
           onMouseLeave={() => autoplay.current.play()}
         >
           <CarouselContent>
-            {publications.map((publication, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <Link href={publication.url} className="block p-4 hover:opacity-90 transition-opacity">
-                  <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-white">
-                    <Image
-                      src={publication.image}
-                      alt={publication.title}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-contain p-2"
-                      priority={index === 0}
-                    />
-                  </div>
-                  <div className="mt-4">
-                    <h3 className="text-xl font-semibold text-center">{publication.title}</h3>
+            {publications.map((pub, index) => (
+              <CarouselItem key={pub.id} className="md:basis-1/2 lg:basis-1/3">
+                <Link 
+                  href={`/publicaciones/${pub.slug}`} 
+                  className="block bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mx-2"
+                >
+                  {/* Publication Image */}
+                  {pub.media && pub.media[0] && pub.media[0].type === 'image' && (
+                    <div className="relative h-64 w-full">
+                      <Image
+                        src={pub.media[0].url}
+                        alt={pub.media[0].alt || pub.title}
+                        fill
+                        className="object-contain bg-gray-100 p-2"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        priority={index === 0}
+                      />
+                    </div>
+                  )}
+                  
+                  {/* Publication Content */}
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold mb-2 line-clamp-2">{pub.title}</h3>
+                    <div className="text-gray-600 mb-3">{pub.date}</div>
+                    <p className="text-gray-700 line-clamp-2">{pub.description}</p>
+                    
+                    {/* Tags */}
+                    {pub.tags && (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {pub.tags.slice(0, 2).map((tag) => (
+                          <span
+                            key={tag}
+                            className="bg-gray-100 px-3 py-1 rounded-full text-sm text-gray-600"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </Link>
               </CarouselItem>
