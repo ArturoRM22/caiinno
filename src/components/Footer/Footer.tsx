@@ -3,7 +3,6 @@ import Link from "next/link"
 import { FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
@@ -37,7 +36,7 @@ export default function Footer() {
             <h2 className="text-xl md:text-2xl font-bold mb-4">Síguenos en nuestras redes</h2>
             <div className="flex gap-4 md:gap-6">
                 <Link 
-                    href="https://www.facebook.com/CAIINNO/?ref=embed_page" 
+                    href="https://www.facebook.com/profile.php?id=61573368978008" 
                     aria-label="Facebook" 
                     className="hover:opacity-80 transition-opacity"
                     target="_blank"
@@ -104,7 +103,7 @@ export default function Footer() {
             </div>
             <div className="mt-6 md:mt-8">
               <Image
-                src="/Logo.png"
+                src="/Logo.jpg"
                 alt="CAIINNO Logo"
                 width={160}
                 height={80}

@@ -4,13 +4,13 @@ import PersuasiveYouTube from "@/components/lazyYoutube";
 
 export default function Publication({
   title,
-  date,
-  description,
+  //date,
+  //description,
   media,
   content,
   downloadLink,
   tags,
-  authors
+  //authors
 }: PublicationProps) {
   // Find the first YouTube video in media array
   const videoMedia = media?.find(item => item.type === 'youtube');
@@ -63,6 +63,12 @@ export default function Publication({
                     )}
                   </div>
                 );
+              case 'paragraph': // Add this case
+              return (
+                <p key={index} className="text-gray-700">
+                  {section.content}
+                </p>
+              );
               case 'list':
                 return (
                   <ul key={index} className="list-disc pl-6 mb-4">

@@ -47,7 +47,7 @@ export default function Impacto() {
               />
             </div>
             
-            <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
+            <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/investigaciones-con-impacto">
               <div>
                 <h3 className="font-semibold mb-2">Nuestras investigaciones son referencia en la generación de agendas públicas y de gobierno, así como para la elaboración de políticas públicas.</h3>
               </div>
@@ -65,7 +65,7 @@ export default function Impacto() {
               />
             </div>
             
-            <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
+            <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/informacion-de-referencia">
               <div>
                 <h3 className="font-semibold mb-2">Nuestro trabajo es fuente de información y referencia para investigaciones académicas nacionales e internacionales</h3>
               </div>

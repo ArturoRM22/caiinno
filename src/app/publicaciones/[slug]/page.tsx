@@ -1,24 +1,21 @@
+// src/app/publicaciones/[slug]/page.tsx
 import { publications } from '@/data/publications';
-import Publication from '@/components/Publication';
 import { notFound } from 'next/navigation';
+import PublicationPageContent from './PublicationPageContent';
 
-export async function generateStaticParams() {
-  return publications.map((pub) => ({
-    slug: pub.slug,
-  }));
-}
+type Props = {
+  params: {
+    slug: string;
+  };
+};
 
-export default async function PublicationPage({ 
-  params 
-}: { 
-  params: { slug: string } 
-}) {
-  const paramsData = await params;
-  const publication = publications.find((p) => p.slug === paramsData.slug);
+export default function PublicationPage({ params }: Props) {
+  // No need to await params as it's already available
+  const publication = publications.find((p) => p.slug === params.slug);
 
   if (!publication) {
     notFound();
   }
 
-  return <Publication {...publication} />;
+  return <PublicationPageContent publication={publication} />;
 }

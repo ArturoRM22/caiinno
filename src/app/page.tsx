@@ -37,7 +37,7 @@ export default function Home() {
           </p>
 
           {/* Description */}
-          <p className="text-2xl mb-18 text-justify">
+          <p className="text-3xl mb-18 text-justify">
             CAIINNO es una think tank constituida por personas que viven en México después de terminar estudios de posgrado en el extranjero, buscando generar un cambio positivo en México, aprovechando su experiencia, conocimiento y contactos obtenidos, principalmente como beneficiarios de la beca Fulbright.
           </p>
 
@@ -57,7 +57,7 @@ export default function Home() {
           <h2 className="text-5xl font-bold mb-20">NUESTRO OBJETIVO</h2>
 
           {/* Description */}
-          <p className="text-2xl mb-8 text-justify">
+          <p className="text-3xl mb-8 text-justify">
             Ayudar a resolver algunos de los retos que enfrenta México en 9 áreas, a través de investigaciones, propuestas y ejecución de proyectos, que permitan tener un país más transparente, incluyente e innovador. Para ello aplicamos los principios de la INNOVACIÓN así como nuestra experiencia y conocimientos.
           </p>
 
@@ -155,7 +155,7 @@ export default function Home() {
               </div>
               
               <div className="flex-1">
-                <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
+                <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/investigaciones-con-impacto">
                   <h3 className="font-semibold mb-2">Investigaciones con Impacto</h3>
                   <div>
                     <h3 className="mb-2 text-justify">Nuestras investigaciones son referencia en la generación de agendas públicas y de gobierno, así como para la elaboración de políticas públicas.</h3>
@@ -176,7 +176,7 @@ export default function Home() {
               </div>
               
               <div className="flex-1">
-                <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/iniciativas-de-reforma">
+                <Link className="hover:opacity-80 transition-opacity flex-1" href="/impacto/informacion-de-referencia">
                   <h3 className="font-semibold mb-2">Información confiable</h3>
                   <div>
                     <h3 className="mb-2 text-justify">Nuestro trabajo es fuente de información y referencia para investigaciones académicas nacionales e internacionales</h3>

@@ -3,7 +3,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-text-logo: #26cde7;
+  --color-text-logo: #319bc8;
   --color-light-blue: #6e9ecd;
   --color-que-hacemos: #af2d2b;
   --color-quienes-somos: #6e9ecd;

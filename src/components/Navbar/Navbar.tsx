@@ -11,9 +11,9 @@ export default function Navbar() {
   return (
     <div className="flex flex-col items-center pb-7 font-[family-name:var(--font-geist-sans)]">
       {/* Logo and Tagline */}
-      <div className="w-full flex justify-center items-center gap-4 px-4">
+      <div className="w-full flex justify-center items-center gap-4 px-4 m-5">
         <Image
-          src="/Logo.png"
+          src="/Logo.jpg"
           alt="Caiinno logo"
           width={350}
           height={100}
@@ -31,8 +31,8 @@ export default function Navbar() {
           <Link href="/" className="hover:underline">Inicio</Link>
           <Link href="/quienes-somos" className="hover:underline">¿Quiénes somos?</Link>
           <Link href="#about-us" className="hover:underline">About us</Link>
-          <Link href="#areas-de-investigacion" className="hover:underline">Áreas de Investigación</Link>
-          <Link href="#actividades" className="hover:underline">Actividades</Link>
+          <Link href="#areas-de-investigacion" className="hover:underline">Información Estadística</Link>
+          <Link href="#actividades" className="hover:underline">Eventos</Link>
           <Link href="/publicaciones" className="hover:underline">Publicaciones</Link>
           <Link href="/impacto" className="hover:underline">Impacto</Link>
           <Link href="#contacto" className="hover:underline">Contacto</Link>
