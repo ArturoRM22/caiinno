@@ -25,22 +25,14 @@ export const publications: Publication[] = [
         downloadKey: 'spanish-version'
         },
         {
-        type: 'paragraph',
-        content: 'Descarga nuestra publicación en este link'
-        },
-        {
         type: 'heading',
         content: 'Download the english version of the publication in this link',
         downloadKey: 'english-version'
-        },
-        {
-        type: 'paragraph',
-        content: 'Download the english version of the publication in this link'
         }
     ],
     downloadLink: {
-        'spanish-version': '#', // Replace with actual download link
-        'english-version': '#'  // Replace with actual download link
+        'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2024/10/Patentes-verdes-final-CAIINNO.pdf',
+        'english-version': 'https://www.caiinno.org/wp-content/uploads/2024/10/fi-Green-Patents-and-Gender-Identification-in-Mexi_241028_162912.pdf' 
     },
     tags: ['Patentes', 'Sustentabilidad', 'Innovación']
     },
@@ -61,8 +53,28 @@ export const publications: Publication[] = [
       {
         type: 'paragraph',
         content: 'Estudio sobre mujeres inventoras en América Latina'
+      },
+      {
+      type: 'heading',
+      content: 'Descarga nuestra publicación en este link',
+      downloadKey: 'spanish-version'
+      },
+      {
+      type: 'heading',
+      content: 'Download the english version of the publication in this link',
+      downloadKey: 'english-version'
+      },
+      {
+      type: 'heading',
+      content: 'Baixe a versão em inglês da publicação neste link',
+      downloadKey: 'portugues-version'
       }
     ],
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2023/08/Mujeres-CAIINNO-GLIPA.pdf',
+      'english-version': 'https://www.caiinno.org/wp-content/uploads/2024/01/INGLES-CAIINNO-GLIPA.pdf',
+      'portugues-version': 'https://www.caiinno.org/wp-content/uploads/2024/01/PORTUGUES-CAIINNO-GLIPA.pdf'
+    },
     tags: ['Mujeres Inventoras', 'América Latina', 'Innovación']
   },
   {
@@ -82,8 +94,22 @@ export const publications: Publication[] = [
       {
         type: 'paragraph',
         content: 'Análisis del impacto del COVID-19 en la automatización de empleos del sector creativo'
-      }
+      },
+      {
+        type: 'heading',
+        content: 'Descarga nuestra publicación en este link',
+        downloadKey: 'spanish-version'
+      },
+      {
+        type: 'heading',
+        content: 'Download the english version of the publication in this link',
+        downloadKey: 'english-version'
+      },
     ],
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2023/02/Automatizacion-COVID-y-Economia-creativa-Final-.pdf',
+      'english-version': 'https://www.caiinno.org/wp-content/uploads/2023/02/PROBABILITY-OF-JOB-AUTOMATION-IN-THE-MEXICAN-CREATIVE-ECONOMY.pdf'
+    },
     tags: ['COVID-19', 'Automatización', 'Economía Creativa']
   },
   {
@@ -103,8 +129,22 @@ export const publications: Publication[] = [
       {
         type: 'paragraph',
         content: 'Análisis del impacto de la economía creativa en México'
+      },
+      {
+        type: 'heading',
+        content: 'Descarga nuestra publicación en este link',
+        downloadKey: 'spanish-version'
+      },
+      {
+        type: 'heading',
+        content: 'Download the english version of the publication in this link',
+        downloadKey: 'english-version'
       }
     ],
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2022/09/Economia-Creativa.pdf',
+      'english-version': 'https://www.caiinno.org/wp-content/uploads/2022/10/Creative-Economy-final.pdf'
+    },
     tags: ['Economía Creativa', 'México', 'Impacto Económico']
   },
   {
@@ -129,8 +169,22 @@ export const publications: Publication[] = [
       {
         type: 'paragraph',
         content: 'Estudio sobre la economía creativa'
+      },
+      {
+        type: 'heading',
+        content: 'Descarga nuestra publicación en este link',
+        downloadKey: 'spanish-version'
+      },
+      {
+        type: 'heading',
+        content: 'Download the english version of the publication in this link',
+        downloadKey: 'english-version'
       }
     ],
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2022/01/Economia-Conocimiento-y-Creativa-CAIINNO-BID.pdf',
+      'english-version': 'https://www.caiinno.org/wp-content/uploads/2022/01/Knowledge-economy-and-creative-economy-CAIINNO-BID.pdf'
+    },
     tags: ['Economía Creativa', 'Innovación']
   },
   {
@@ -221,8 +275,8 @@ export const publications: Publication[] = [
     id: '8',
     slug: 'convocatoria-a-investigadores',
     title: 'Convocatoria a Investigadores',
-    date: '', // Add date if available
-    description: '', // Add description if available
+    date: '',
+    description: 'Propuestas para la recuperación de América Latina y el Caribe',
     media: [
       {
         type: 'image',
@@ -230,8 +284,17 @@ export const publications: Publication[] = [
         alt: 'Convocatoria a Investigadores'
       }
     ],
-    content: [], // Add content if available
-    tags: [] // Add tags if available
+    content: [
+      {
+        type: 'heading',
+        content: 'Descarga nuestra publicación en este link',
+        downloadKey: 'spanish-version'
+      }
+    ],
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2021/06/Convocatoria-a-Investigadores.pdf',
+    },
+    tags: []
   },
   /*{
     id: '9',
@@ -330,9 +393,19 @@ export const publications: Publication[] = [
         type: 'image',
         url: '/publications/fesf.png',
         alt: 'Propiedad Intelectual para el Desarrollo de México'
+      },
+      
+    ],
+    content: [
+      {
+        type: 'heading',
+        content: 'Descarga nuestra publicación en este link',
+        downloadKey: 'spanish-version'
       }
     ],
-    content: [], // Add content if available
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2018/07/PI-Algunas-Propuestas-CAIINNO.pdf'
+    },
     tags: ['Propiedad Intelectual', 'Creatividad', 'Innovación']
   },
   /*
@@ -418,7 +491,16 @@ export const publications: Publication[] = [
         alt: 'Habilidades para la Innovación'
       }
     ],
-    content: [], // Add content if available
+    content: [
+      {
+        type: 'heading',
+        content: 'Descarga nuestra publicación en este link',
+        downloadKey: 'spanish-version'
+      }
+    ],
+    downloadLink: {
+      'spanish-version': 'https://www.britishcouncil.org.mx/sites/default/files/resumen_ejecutivo_habilidades_para_la_innovacion.pdf',
+    },
     tags: ['Habilidades', 'Innovación']
   }
 ];

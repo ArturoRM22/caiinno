@@ -102,9 +102,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="como-lo-hacemos" className="min-h-screen bg-white pb-10 pt-20">
+      <section id="como-lo-hacemos" className="min-h-screen bg-gray-900 pb-10 pt-20">
         <div className="container mx-auto">
-          <h2 className="text-5xl font-bold mb-20">¿CÓMO LO HACEMOS?</h2>
+          <h2 className="text-5xl font-bold mb-20 text-white">¿CÓMO LO HACEMOS?</h2>
           <div className="w-full flex justify-center items-center">
             <Image
               src="/comoLoHacemos_2.jpg"

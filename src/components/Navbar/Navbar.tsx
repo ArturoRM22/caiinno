@@ -32,7 +32,7 @@ export default function Navbar() {
           <Link href="/quienes-somos" className="hover:underline">¿Quiénes somos?</Link>
           <Link href="#about-us" className="hover:underline">About us</Link>
           <Link href="#areas-de-investigacion" className="hover:underline">Información Estadística</Link>
-          <Link href="#actividades" className="hover:underline">Eventos</Link>
+          <Link href="/events" className="hover:underline">Eventos</Link>
           <Link href="/publicaciones" className="hover:underline">Publicaciones</Link>
           <Link href="/impacto" className="hover:underline">Impacto</Link>
           <Link href="#contacto" className="hover:underline">Contacto</Link>

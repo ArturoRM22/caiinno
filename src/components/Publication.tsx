@@ -58,7 +58,12 @@ export default function Publication({
                         href={downloadLink[section.downloadKey]}
                         className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
                       >
-                        {section.downloadKey === 'database' ? 'Acceder' : 'Descargar'}
+                        {section.downloadKey === 'database' 
+                          ? 'Acceder' 
+                          : section.downloadKey === 'english-version' 
+                            ? 'Download' 
+                            : 'Descargar'
+                        }
                       </a>
                     )}
                   </div>
