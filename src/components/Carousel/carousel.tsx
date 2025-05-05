@@ -49,12 +49,17 @@ export default function CarouselWithNavigation() {
         <CarouselNext className="absolute right-4 z-20" />
       </Carousel>
 
-      {/* Navigation content positioned on top of carousel */}
       <div className="relative z-10 h-full bg-gradient-to-b from-transparent to-black/50">
-        <div className="container mx-auto h-full flex flex-col">
-          {/* Navigation Section */}
-          <div className="flex-grow pt-26">
-            <div className="container mx-auto pb-60">
+        <div className="container mx-auto h-full flex flex-col justify-center">
+          
+          <div className="pt-20">
+            <h1 className="text-7xl font-extrabold text-white">
+              WE THINK BIG, WE WANT CHANGES
+            </h1>
+          </div>
+
+          <div className="flex-grow pt-16">
+            <div className="container mx-auto">
               <div className="flex flex-col justify-center gap-8 text-white">
                 <a href="#quienes-somos" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
                   ¿QUIÉNES SOMOS?
@@ -75,8 +80,6 @@ export default function CarouselWithNavigation() {
             </div>
           </div>
 
-          {/* Tagline at bottom */}
-          <div className="text-center font-bold pb-10 text-4xl text-white">WE THINK BIG, WE WANT CHANGES</div>
         </div>
       </div>
     </div>

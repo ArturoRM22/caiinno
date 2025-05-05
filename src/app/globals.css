@@ -6,7 +6,8 @@
   --color-text-logo: #319bc8;
   --color-light-blue: #6e9ecd;
   --color-que-hacemos: #af2d2b;
-  --color-quienes-somos: #6e9ecd;
+  --color-quienes-somos: #0071bc;
+  --color-quienes-somos-button: #62cfe1;
 }
 
 @theme inline {
