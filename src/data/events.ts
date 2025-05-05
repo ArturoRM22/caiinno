@@ -114,22 +114,77 @@ export const events: Event[] = [
     title: 'CONFERENCIA Y MESAS DE ANÁLISIS DEL EVENTO “CAMPO MEXICANO: INNOVACIÓN, CAMBIO CLIMÁTICO Y SEGURIDAD ALIMENTARIA”, EN COLABORACIÓN CON LA OFICINA DE PATENTES Y MARCAS DE LOS ESTADOS UNIDOS',
     images: [
       {
-        url: '/events/multasElectorales/invitacion-multas-electorales-a-cyt-slide.jpeg',
+        url: '/events/seguridadAlimentaria/presentacion.jpeg',
         alt: 'Foto del evento 1'
       },
       {
-        url: '/events/multasElectorales/20160526_122403-1.jpg',
+        url: '/events/seguridadAlimentaria/2.jpg',
         alt: 'Foto del evento 3'
       },
       {
-        url: '/events/multasElectorales/20160526_122423.jpg',
+        url: '/events/seguridadAlimentaria/3.jpg',
         alt: 'Foto del evento 4'
       },
       {
-        url: '/events/multasElectorales/88.jpg',
+        url: '/events/seguridadAlimentaria/4.jpg',
         alt: 'Foto del evento 5'
+      },
+      {
+        url: '/events/seguridadAlimentaria/5.jpg',
+        alt: 'Foto del evento 6'
       }
     ]
   },
+  {
+    id: '5',
+    title: ' Impulsando la creatividad emprendedora',
+    images: [
+      {
+        url: '/events/creatividadEmprendedora/1.jpg',
+        alt: 'Foto del evento 1'
+      },
+      {
+        url: '/events/creatividadEmprendedora/2.jpg',
+        alt: 'Foto del evento 3'
+      },
+      {
+        url: '/events/creatividadEmprendedora/3.jpg',
+        alt: 'Foto del evento 4'
+      },
+      {
+        url: '/events/creatividadEmprendedora/4.jpg',
+        alt: 'Foto del evento 5'
+      },
+      {
+        url: '/events/creatividadEmprendedora/5.jpg',
+        alt: 'Foto del evento 6'
+      }
+    ]
+  },
+  {
+    id: '6',
+    title: 'CAIINNO fue reconocido con el Premio de Innovación y Buenas Prácticas en la Protección de Datos Personales, otorgado por el INAI.🏆',
+    images: [
+      {
+        url: '/events/premioDATOS/1.jpg',
+        alt: 'Foto del evento 1'
+      }
+    ]
+  },
+  {
+    id: '7',
+    title: 'PREMIO: Uso de inteligencia artificial para evaluar los riesgos en el uso de datos personales de los que se es responsable, en actividades de investigación realizadas dentro de la ONG',
+    images: [
+      {
+        url: '/events/premioIA/1.jpg',
+        alt: 'Foto del evento 1'
+      },
+      {
+        url: '/events/premioIA/2.jpg',
+        alt: 'Foto del evento 3'
+      }
+    ]
+  },
+  
 
 ];

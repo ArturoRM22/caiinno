@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
+import Autoplay, { AutoplayType } from "embla-carousel-autoplay";
 import { useRef } from "react";
 import { Event } from "@/models/Event";
 
@@ -11,13 +11,16 @@ interface EventProps {
 }
 
 export default function EventCarousel({ event }: EventProps) {
-  const autoplay = useRef(
-    Autoplay({
+  const autoplay = useRef<AutoplayType | null>(null);
+
+  // Initialize autoplay only if there are multiple images
+  if (event.images.length > 1 && !autoplay.current) {
+    autoplay.current = Autoplay({
       delay: 4000,
       stopOnInteraction: true,
       stopOnMouseEnter: true,
-    })
-  );
+    });
+  }
 
   return (
     <div className="space-y-4">
@@ -27,10 +30,10 @@ export default function EventCarousel({ event }: EventProps) {
       {/* Carousel Container */}
       <div className="relative w-full h-[500px] rounded-lg overflow-hidden shadow-lg bg-gray-100">
         <Carousel
-          plugins={[autoplay.current]}
-          opts={{ loop: true }}
-          onMouseEnter={() => autoplay.current.stop()}
-          onMouseLeave={() => autoplay.current.play()}
+          plugins={autoplay.current ? [autoplay.current] : []}
+          opts={{ loop: event.images.length > 1 }}
+          onMouseEnter={() => autoplay.current?.stop()}
+          onMouseLeave={() => autoplay.current?.play()}
           className="h-full"
         >
           <CarouselContent className="h-full">
@@ -41,7 +44,7 @@ export default function EventCarousel({ event }: EventProps) {
                     src={image.url}
                     alt={image.alt || event.title}
                     fill
-                    className="object-contain" // Changed from object-cover to object-contain
+                    className="object-contain"
                     sizes="(max-width: 768px) 100vw, 80vw"
                     priority={index === 0}
                   />
@@ -49,8 +52,13 @@ export default function EventCarousel({ event }: EventProps) {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="absolute left-4 z-10" />
-          <CarouselNext className="absolute right-4 z-10" />
+          {/* Only show navigation arrows if there's more than one image */}
+          {event.images.length > 1 && (
+            <>
+              <CarouselPrevious className="absolute left-4 z-10" />
+              <CarouselNext className="absolute right-4 z-10" />
+            </>
+          )}
         </Carousel>
       </div>
     </div>
