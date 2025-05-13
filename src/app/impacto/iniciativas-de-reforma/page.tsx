@@ -98,6 +98,38 @@ export default function IniciativasDeReforma() {
                 http://www.diputadospan.mx/DiputadosPAN/layouts/Noticia.aspx?tipo=2&idnoticia=5449&id=5449
               </Link>
             </li>
+
+            <li>
+              <p className="mb-2">
+              INICIATIVA CON PROYECTO DE DECRETO POR EL QUE SE ADICIONA LA
+              FRACCIÓN XXXV AL ARTÍCULO 5 DE LA LEY FEDERAL DE PROTECCIÓN A
+              LA PROPIEDAD INDUSTRIAL
+              </p>
+              <Link 
+                href="https://sil.gobernacion.gob.mx/Archivos/Documentos/2022/11/asun_4436753_20221109_1664902732.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 break-all"
+              >
+                https://sil.gobernacion.gob.mx/Archivos/Documentos/2022/11/asun_4436753_20221109_1664902732.pdf
+              </Link>
+            </li>
+
+            <li>
+              <p className="mb-2">
+              INICIATIVA CON PROYECTO DE DECRETO POR EL QUE SE ADICIONAN LA
+              FRACCIÓN IX AL ARTÍCULO 2, LA FRACCIÓN XXI AL ARTÍCULO 12, Y LA
+              FRACCIÓN IX AL ARTÍCULO 13, DE LA LEY DE CIENCIA Y TECNOLOGÍA 
+              </p>
+              <Link 
+                href="https://www.senado.gob.mx/66/gaceta_del_senado/documento/129516" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 break-all"
+              >
+                https://www.senado.gob.mx/66/gaceta_del_senado/documento/129516
+              </Link>
+            </li>
           </ol>
         </div>
       </div>

@@ -163,6 +163,60 @@ export const events: Event[] = [
   },
   {
     id: '6',
+    title: 'Conferencia de Yajaira Sierra-Sastre de la misión de la NASA a Marte | CAIINNO',
+    images: [
+      {
+        url: '/events/YajairaEvent/1.png',
+        alt: 'Foto del evento 1'
+      },
+      {
+        url: '/events/YajairaEvent/2.png',
+        alt: 'Foto del evento 2'
+      },
+      {
+        url: '/events/YajairaEvent/3.png',
+        alt: 'Foto del evento 3'
+      },
+      {
+        url: '/events/YajairaEvent/4.png',
+        alt: 'Foto del evento 4'
+      },
+      {
+        url: '/events/YajairaEvent/5.png',
+        alt: 'Foto del evento 5'
+      },
+      {
+        url: '/events/YajairaEvent/6.png',
+        alt: 'Foto del evento 6'
+      },
+      {
+        url: '/events/YajairaEvent/7.png',
+        alt: 'Foto del evento 7'
+      },
+      {
+        url: '/events/YajairaEvent/8.png',
+        alt: 'Foto del evento 8'
+      },
+      {
+        url: '/events/YajairaEvent/9.png',
+        alt: 'Foto del evento 9'
+      },
+      {
+        url: '/events/YajairaEvent/10.png',
+        alt: 'Foto del evento 10'
+      },
+      {
+        url: '/events/YajairaEvent/11.png',
+        alt: 'Foto del evento 11'
+      },
+      {
+        url: '/events/YajairaEvent/12.png',
+        alt: 'Foto del evento 12'
+      }
+    ]
+  },
+  {
+    id: '7',
     title: 'CAIINNO fue reconocido con el Premio de Innovación y Buenas Prácticas en la Protección de Datos Personales, otorgado por el INAI.🏆',
     images: [
       {
@@ -172,7 +226,7 @@ export const events: Event[] = [
     ]
   },
   {
-    id: '7',
+    id: '8',
     title: 'PREMIO: Uso de inteligencia artificial para evaluar los riesgos en el uso de datos personales de los que se es responsable, en actividades de investigación realizadas dentro de la ONG',
     images: [
       {
@@ -185,6 +239,14 @@ export const events: Event[] = [
       }
     ]
   },
-  
-
+  {
+    id: '9',
+    title: 'PATENTES VERDES EN MÉXICO del 2017 al 2022 Y SU IDENTIFICACIÓN POR GÉNERO',
+    images: [
+      {
+        url: '/events/patentesVerdes/1.jpeg',
+        alt: 'Foto del evento 1'
+      }
+    ]
+  }
 ];
