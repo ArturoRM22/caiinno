@@ -45,35 +45,35 @@ export default function CarouselWithNavigation() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="absolute left-4 z-20" />
-        <CarouselNext className="absolute right-4 z-20" />
+        <CarouselPrevious className="absolute left-4 z-20 hidden sm:inline-flex" />
+        <CarouselNext className="absolute right-4 z-20 hidden sm:inline-flex" />
       </Carousel>
 
       <div className="relative z-10 h-full bg-gradient-to-b from-transparent to-black/50">
         <div className="container mx-auto h-full flex flex-col justify-center">
           
-          <div className="pt-20">
-            <h1 className="text-7xl font-extrabold text-white">
+          <div className="pt-20 px-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white">
               WE THINK BIG, WE WANT CHANGES
             </h1>
           </div>
 
           <div className="flex-grow pt-16">
             <div className="container mx-auto">
-              <div className="flex flex-col justify-center gap-8 text-white">
-                <a href="#quienes-somos" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
+              <div className="flex flex-col justify-center gap-8 text-white px-4">
+                <a href="#quienes-somos" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold hover:text-gray-300 transition-colors">
                   ¿QUIÉNES SOMOS?
                 </a>
-                <a href="#nuestro-objetivo" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
+                <a href="#nuestro-objetivo" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold hover:text-gray-300 transition-colors">
                   NUESTRO OBJETIVO
                 </a>
-                <a href="#que-pretendemos" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
+                <a href="#que-pretendemos" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold hover:text-gray-300 transition-colors">
                   ¿QUÉ PRETENDEMOS?
                 </a>
-                <a href="#como-lo-hacemos" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
+                <a href="#como-lo-hacemos" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold hover:text-gray-300 transition-colors">
                   ¿CÓMO LO HACEMOS?
                 </a>
-                <a href="#impacto" className="text-5xl font-semibold hover:text-gray-300 transition-colors">
+                <a href="#impacto" className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold hover:text-gray-300 transition-colors">
                   IMPACTO
                 </a>
               </div>

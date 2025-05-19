@@ -25,7 +25,9 @@ export default function EventCarousel({ event }: EventProps) {
   return (
     <div className="space-y-4">
       {/* Event Title */}
-      <h2 className="text-3xl font-bold text-center">{event.title}</h2>
+      <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center">
+        {event.title}
+      </h2>
       
       {/* Carousel Container */}
       <div className="relative w-full h-[500px] rounded-lg overflow-hidden shadow-lg bg-gray-100">

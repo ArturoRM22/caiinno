@@ -10,11 +10,11 @@ export default function PrivacySection() {
       >
         <div className="flex items-center gap-3">
           <BsFillSignStopFill className="text-red-600" size={100} />
-          <h3 className="text-5xl font-semibold text-gray-800 group-hover:text-blue-600">
+          <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-gray-800 group-hover:text-blue-600">
             ¿Cuánto te importa tu privacidad?
           </h3>
         </div>
-        <p className="text-center text-4xl text-gray-600 group-hover:text-blue-500">
+        <p className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-600 group-hover:text-blue-500">
           Te invitamos a leer nuestro<br />
           <span className="font-bold underline">AVISO DE PRIVACIDAD</span>
         </p>

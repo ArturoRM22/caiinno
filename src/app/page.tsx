@@ -55,50 +55,49 @@ export default function Home() {
       </section>
       */}
 
-      <section id="quienes-somos" className="relative min-h-screen pb-10 pt-20 overflow-hidden">
-        <img
-          src="/DNA.svg"
-          alt="DNA background"
-          className="absolute bottom-[10%] left-[10%] w-[30%] max-w-[500px] opacity-80 pointer-events-none"
-        />
+      <section id="quienes-somos" className="relative lg:min-h-screen pb-10 pt-10 md:pt-20 overflow-hidden">
+  {/* DNA images - hidden on mobile */}
+  <img
+    src="/DNA.svg"
+    alt="DNA background"
+    className="hidden lg:block absolute bottom-[10%] left-[10%] w-[30%] max-w-[500px] opacity-80 pointer-events-none"
+  />
+  <img
+    src="/DNA.svg"
+    alt="DNA background"
+    className="hidden lg:block absolute top-[40%] right-[10%] w-[30%] max-w-[500px] opacity-30 pointer-events-none"
+  />
 
-        <img
-          src="/DNA.svg"
-          alt="DNA background"
-          className="absolute top-[40%] right-[10%] w-[30%] max-w-[500px] opacity-30 pointer-events-none"
-        />
-        <div className="container mx-auto relative z-10 text-quienes-somos flex flex-col gap-26">
-          
-          {/* Row with Title and Paragraph */}
-          <div className="flex flex-col lg:flex-row justify-between items-start gap-10 mx-30">
-            
-            {/* Title on the left */}
-            <h2 className="text-7xl font-bold whitespace-nowrap">
-              ¿QUIÉNES<br />SOMOS?
-            </h2>
+  <div className="container mx-auto px-4 sm:px-6 relative z-10 text-quienes-somos flex flex-col gap-8 lg:gap-12">
+    
+    {/* Row with Title and Paragraph - Adjusted spacing */}
+    <div className="flex flex-col lg:flex-row items-start gap-4 lg:gap-8 xl:gap-12">
+      
+      {/* Title on the left */}
+      <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold lg:whitespace-nowrap lg:w-[40%]">
+        ¿QUIÉNES<br />SOMOS?
+      </h2>
 
-            {/* Description on the right */}
-            <p className="text-3xl text-justify max-w-3xl">
-              CAIINNO es una think tank constituida por personas que viven en México después de terminar estudios de posgrado en el extranjero, buscando generar un cambio positivo en México, aprovechando su experiencia, conocimiento y contactos obtenidos, principalmente como beneficiarios de la beca Fulbright.
-            </p>
+      {/* Description on the right */}
+      <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl lg:w-[60%]">
+        CAIINNO es una think tank constituida por personas que viven en México después de terminar estudios de posgrado en el extranjero, buscando generar un cambio positivo en México, aprovechando su experiencia, conocimiento y contactos obtenidos, principalmente como beneficiarios de la beca Fulbright.
+      </p>
+    </div>
 
-          </div>
-
-          {/* Subtitle and Button Centered Below */}
-          <div className="flex flex-col items-center text-center gap-30">
-            <p className="text-5xl font-semibold">
-              CAIINNO: Innovación que transforma México.
-            </p>
-            <Link
-              href="/quienes-somos"
-              className="inline-block px-15 py-6 text-2xl bg-quienes-somos-button text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
-              >
-                Saber más
-              </Link>
-          </div>
-
-          </div>
-        </section>
+    {/* Subtitle and Button Centered Below */}
+    <div className="flex flex-col items-center text-center gap-6 md:gap-8 mt-8 md:mt-12">
+      <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold">
+        CAIINNO: Innovación que transforma México.
+      </p>
+      <Link
+        href="/quienes-somos"
+        className="inline-block px-6 py-3 sm:px-10 sm:py-4 text-lg sm:text-xl md:text-2xl bg-quienes-somos-button text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+      >
+        Saber más
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/*
       <section id="nuestro-objetivo" className="min-h-screen bg-que-hacemos pb-10 pt-20">
@@ -137,24 +136,27 @@ export default function Home() {
 
     <NuestroObjetivo/>
 
-      <section id="que-pretendemos" className="min-h-screen bg-white pb-10 pt-20">
-        <div className="container mx-auto">
-          <h2 className="text-5xl font-bold mb-20">¿QUÉ PRETENDEMOS?</h2>
-          <div className="w-full flex justify-center items-center">
-            <Image
-              src="/quePretendemos_2.jpg"
-              alt="¿Qué pretendemos?"
-              width={1000}
-              height={100}
-              priority
-            />
-          </div>
+    <section id="que-pretendemos" className="lg:min-h-screen bg-white pb-6 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
+      <div className="container mx-auto px-4 sm:px-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 sm:mb-12 md:mb-16 lg:mb-20">
+          ¿QUÉ PRETENDEMOS?
+        </h2>
+        <div className="w-full flex justify-center items-center">
+          <Image
+            src="/quePretendemos_2.jpg"
+            alt="¿Qué pretendemos?"
+            width={1000}
+            height={100}
+            priority
+            className="w-full max-w-[1000px]"
+          />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="como-lo-hacemos" className="min-h-screen bg-gray-900 pb-10 pt-20">
-        <div className="container mx-auto">
-          <h2 className="text-5xl font-bold mb-20 text-white">¿CÓMO LO HACEMOS?</h2>
+      <section id="como-lo-hacemos" className="lg:min-h-screen bg-gray-900 pb-6 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20 text-white">¿CÓMO LO HACEMOS?</h2>
           <div className="w-full flex justify-center items-center">
             <Image
               src="/comoLoHacemos_2.jpg"
