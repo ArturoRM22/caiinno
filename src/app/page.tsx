@@ -4,7 +4,7 @@ import PublicationsCarousel from "@/components/Carousel/publications-carousel";
 import Image from "next/image";
 import Link from "next/link";
 import NuestroObjetivo from "@/components/NuestroObjetivo";
-import ImpactoSection from "@/components/Impacto";
+//import ImpactoSection from "@/components/Impacto";
 
 export default function Home() {
   return (
@@ -171,17 +171,17 @@ export default function Home() {
  
       <section id="impacto" className="min-h-screen bg-white py-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12">IMPACTO</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12">IMPACTO</h2>
           
-          <div className="space-y-6 mb-5 text-lg md:text-2xl">
-            <div className="flex items-start gap-4 p-6 rounded-lg border-l-4 border-black bg-white text-black">
-              <div className="relative w-16 h-16 flex-shrink-0">
-                <Image
-                  src="/iconoReformas.png"
-                  alt="icono reformas de ley"
-                  fill
-                  className="object-contain"
-                />
+          <div className="space-y-4 sm:space-y-6 mb-5 text-base sm:text-lg">
+            <div className="flex items-start gap-4 p-4 sm:p-6 rounded-lg border-l-4 border-black bg-white text-black">
+              <div className="relative w-12 h-12 sm:w-16 sm:h-16 flex-shrink-0">
+                    <Image
+                      src="/iconoReformas.png"
+                      alt="icono reformas de ley"
+                      fill
+                      className="object-contain"
+                    />
               </div>
               
               <div className="flex-1">
@@ -194,9 +194,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 p-6 rounded-lg border-l-4 border-black bg-white text-black">
+            <div className="flex items-start gap-4 p-4 sm:p-6 rounded-lg border-l-4 border-black bg-white text-black">
 
-              <div className="relative w-16 h-16 flex-shrink-0">
+              <div className="relative w-12 h-12 sm:w-16 sm:h-16 flex-shrink-0">
                 <Image
                   src="/iconoAgendas.png"
                   alt="icono agendas"
@@ -215,8 +215,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 p-6 rounded-lg border-l-4 border-black bg-white text-black">
-              <div className="relative w-16 h-16 flex-shrink-0">
+            <div className="flex items-start gap-4 p-4 sm:p-6 rounded-lg border-l-4 border-black bg-white text-black">
+              <div className="relative w-12 h-12 sm:w-16 sm:h-16 flex-shrink-0">
                 <Image
                   src="/iconoLibros.png"
                   alt="icono libros"
@@ -237,10 +237,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center mt-20">
+        <div className="flex justify-center items-center mt-10 sm:mt-16 md:mt-20">
           <Link
             href="/impacto"
-            className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+            className="inline-block px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
           >
             Saber más
           </Link>
