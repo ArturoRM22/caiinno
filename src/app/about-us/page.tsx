@@ -1,3 +1,4 @@
+import TeamSection from "@/components/TeamSection"
 import Image from "next/image"
 
 export default function AboutUs() {
@@ -6,7 +7,7 @@ export default function AboutUs() {
       <div className="container mx-auto px-4 py-12 max-w-5xl">
         <h1 className="text-3xl md:text-4xl font-bold mb-8">About Us</h1>
 
-        <div className="prose max-w-none">
+        <div className="prose max-w-none text-justify text-lg lg:text-2xl">
           <p className="mb-6">
             The Centro de Análisis para la Investigación en Innovación, A.C. (CAIINNO), is a Mexican think tank
             established by individuals who completed their studies abroad with the Fulbright scholarship and decided to
@@ -56,7 +57,20 @@ export default function AboutUs() {
             />
           </div>
         </div>
+
+        <div className="w-full relative mt-12">
+          <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
+            <Image
+              src="/areasEnglish.jpg"
+              alt="9 areas english"
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
+              className="object-contain"
+            />
+          </div>
+        </div>
       </div>
+      <TeamSection language="english"/>
     </>
   )
 }

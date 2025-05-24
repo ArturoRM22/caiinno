@@ -81,7 +81,7 @@ export default function CarouselWithNavigation() {
           </div>
 
         </div>
-      </div>
+      </div>  
     </div>
   )
 }

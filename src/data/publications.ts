@@ -502,5 +502,30 @@ export const publications: Publication[] = [
       'spanish-version': 'https://www.britishcouncil.org.mx/sites/default/files/resumen_ejecutivo_habilidades_para_la_innovacion.pdf',
     },
     tags: ['Habilidades', 'Innovación']
+  },
+  {
+    id: '19',
+    slug: 'indice-nacional-de-ciencia-tecnologia-e-innvacion',
+    title: 'INDICE-NACIONAL-DE-CIENCIA-TECNOLOGÍA-E-INNOVACIÓN-2025',
+    date: '2025',
+    description: '', // Add description if available
+    media: [
+      {
+        type: 'image',
+        url: '/publications/IndiceNacionalPublication.png',
+        alt: 'INDICE-NACIONAL-DE-CIENCIA-TECNOLOGÍA-E-INNOVACIÓN-2025'
+      }
+    ],
+    content: [
+      {
+        type: 'heading',
+        content: 'Descarga nuestra publicación en este link',
+        downloadKey: 'spanish-version'
+      }
+    ],
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2025/05/CAIINNO-INDICE-2025.pdf',
+    },
+    tags: ['Habilidades', 'Innovación']
   }
 ];

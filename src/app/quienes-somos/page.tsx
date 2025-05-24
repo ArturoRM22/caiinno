@@ -1,9 +1,11 @@
 import LazyYouTube from '@/components/lazyYoutube'
+import TeamSection from '@/components/TeamSection'
 import Image from 'next/image'
 import React from 'react'
 
 export default function QuienesSomos() {
   return (
+    <>
     <div className="flex flex-col items-center">
       {/* YouTube Video */}
       <div className="w-full aspect-video">
@@ -35,5 +37,7 @@ export default function QuienesSomos() {
         </div>
       </div>
     </div>
+    <TeamSection language="spanish"/>
+    </>
   )
 }
