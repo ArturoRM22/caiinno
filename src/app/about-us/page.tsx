@@ -1,5 +1,6 @@
 import TeamSection from "@/components/TeamSection"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function AboutUs() {
   return (
@@ -68,6 +69,36 @@ export default function AboutUs() {
               className="object-contain"
             />
           </div>
+        </div>
+      </div>
+      <div className="container mx-auto px-4 py-16 max-w-5xl">
+        <div className="text-center">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+            Explore Our Work
+          </h2>
+          <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+            Discover our latest research, studies, and publications that contribute to innovation 
+            and policy development in Mexico and Latin America.
+          </p>
+          <Link
+            href="/publicaciones?lang=en"
+            className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold text-lg rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          >
+            View Our Publications
+            <svg
+              className="ml-2 w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </Link>
         </div>
       </div>
       <TeamSection language="english"/>

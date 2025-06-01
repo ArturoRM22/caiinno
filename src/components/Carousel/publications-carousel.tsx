@@ -5,7 +5,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Autoplay from "embla-carousel-autoplay"
 import { useRef } from "react"
 import Link from "next/link"
-import { publications } from "@/data/publications"
+import { publications } from "@/data/publications_test"
 
 export default function PublicationsCarousel() {
   const autoplay = useRef(
@@ -41,7 +41,7 @@ export default function PublicationsCarousel() {
                     <div className="relative h-64 w-full">
                       <Image
                         src={pub.media[0].url}
-                        alt={pub.media[0].alt || pub.title}
+                        alt={pub.media[0].alt || pub.multilingual.es.title}
                         fill
                         className="object-contain bg-gray-100 p-2"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -52,14 +52,14 @@ export default function PublicationsCarousel() {
                   
                   {/* Publication Content */}
                   <div className="p-6">
-                    <h3 className="text-xl font-bold mb-2 line-clamp-2">{pub.title}</h3>
+                    <h3 className="text-xl font-bold mb-2 line-clamp-2">{pub.multilingual.es.title}</h3>
                     <div className="text-gray-600 mb-3">{pub.date}</div>
-                    <p className="text-gray-700 line-clamp-2">{pub.description}</p>
+                    <p className="text-gray-700 line-clamp-2">{pub.multilingual.es.description}</p>
                     
                     {/* Tags */}
-                    {pub.tags && (
+                    {pub.multilingual.es.tags && (
                       <div className="mt-4 flex flex-wrap gap-2">
-                        {pub.tags.slice(0, 2).map((tag) => (
+                        {pub.multilingual.es.tags.slice(0, 2).map((tag) => (
                           <span
                             key={tag}
                             className="bg-gray-100 px-3 py-1 rounded-full text-sm text-gray-600"
