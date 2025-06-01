@@ -740,3 +740,99 @@ export const publications: Publication[] = [
     }
   }          
 ];
+
+
+/*{
+    id: '9',
+    slug: 'mapa-del-seguimiento-al-covid',
+    title: 'Mapa del seguimiento al covid',
+    date: '', // Add date if available
+    description: 'Mapa de seguimiento al COVID-19 en México con datos oficiales',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/covid.png',
+        alt: 'Mapa de seguimiento al COVID-19'
+      }
+    ],
+    content: [
+      {
+        type: 'paragraph',
+        content: 'El presente es un esfuerzo desde la sociedad civil organizada, para que los ciudadanos puedan visualizar de una forma práctica y sencilla con información oficial del gobierno mexicano, cuál es el desempeño del virus en el país.'
+      },
+      {
+        type: 'paragraph',
+        content: 'ÚNICAMENTE se utilizan como fuente los datos de la Secretaria de Salud del Gobierno Federal, disponibles en la siguiente liga: Datos Abiertos – Dirección General de Epidemiología'
+      },
+      {
+        type: 'paragraph',
+        content: 'Los datos se están actualizando todos los días a las 20:00 horas, tiempo del centro de México.'
+      }
+    ],
+    tags: ['COVID-19', 'Mapa', 'Datos']
+  },*/
+
+/*{
+    id: '12',
+    slug: 'invenciones-y-genero',
+    title: 'Invenciones y género en México a nivel estatal',
+    date: '', // Add date if available
+    description: 'Estadísticas sobre el papel de las inventoras en la propiedad industrial en México',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/invenciones-genero.png',
+        alt: 'Invenciones y género en México'
+      }
+    ],
+    content: [
+      {
+        type: 'paragraph',
+        content: 'La siguiente información estadística que presenta CAIINNO, representa el esfuerzo por concentrar en un sólo lugar la mayor cantidad de información estadística referente al papel de las inventoras dentro de la propiedad industrial en México.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Nota técnica: los datos dentro el gráfico interactivo están expresados en número de invenciones y no en número de inventoras que aparecen en la solicitud de patente.'
+      }
+    ],
+    tags: ['Invenciones', 'Género', 'Patentes', 'Mujeres Inventoras']
+  },*/
+
+  /*
+  {
+    id: '14',
+    slug: 'financiamiento-para-emprendedores',
+    title: 'Recursos y financiamiento para emprendedores',
+    date: '', // Add date if available
+    description: '', // Add description if available
+    media: [
+      {
+        type: 'image',
+        url: '/publications/financiamiento-emprendedores.png',
+        alt: 'Financiamiento para emprendedores'
+      }
+    ],
+    content: [], // Add content if available
+    tags: ['Financiamiento', 'Emprendedores']
+  },
+  {
+    id: '15',
+    slug: 'emprendedores-america-latina',
+    title: 'Emprendedores América Latina',
+    date: '', // Add date if available
+    description: '', // Add description if available
+    media: [
+      {
+        type: 'image',
+        url: '/publications/financiamiento-emprendedores-latam.png',
+        alt: 'Emprendedores América Latina'
+      }
+    ],
+    content: [], // Add content if available
+    tags: ['Emprendedores', 'América Latina']
+  },*/
+
+
+
+
+
