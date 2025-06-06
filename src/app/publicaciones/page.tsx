@@ -1,8 +1,7 @@
-// publications/page.tsx (updated)
-
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { publications } from '@/data/publications_test';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -11,7 +10,24 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 type Language = 'es' | 'en';
 
 export default function PublicationsPage() {
-  const [language, setLanguage] = useState<Language>('es');
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const initialLanguage = (searchParams.get('lang') as Language) || 'es';
+  const [language, setLanguage] = useState<Language>(initialLanguage);
+
+  useEffect(() => {
+    const urlLang = (searchParams.get('lang') as Language) || 'es';
+    setLanguage(urlLang);
+  }, [searchParams]);
+
+  const handleLanguageChange = (newLanguage: Language) => {
+    setLanguage(newLanguage);
+    // Update URL without page refresh
+    const params = new URLSearchParams(searchParams);
+    params.set('lang', newLanguage);
+    router.push(`?${params.toString()}`, { scroll: false });
+  };
 
   const pageTitle = language === 'es' ? 'Publicaciones' : 'Publications';
 
@@ -23,7 +39,7 @@ export default function PublicationsPage() {
           <div className="absolute right-0">
             <LanguageSwitcher 
               currentLanguage={language}
-              onLanguageChange={setLanguage}
+              onLanguageChange={handleLanguageChange}
             />
           </div>
         </div>

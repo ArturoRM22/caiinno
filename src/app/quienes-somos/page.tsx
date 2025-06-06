@@ -59,7 +59,7 @@ export default function QuienesSomos() {
             Descubre nuestras investigaciones, estudios y publicaciones más recientes que contribuyen a la innovación y al desarrollo de políticas en México y América Latina.
           </p>
           <Link
-            href="/publicaciones?lang=en"
+            href="/publicaciones?lang=es"
             className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold text-lg rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
           >
             Ver publicaciones
