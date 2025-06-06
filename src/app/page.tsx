@@ -144,7 +144,7 @@ export default function Home() {
         </h2>
         <div className="w-full flex justify-center items-center">
           <Image
-            src="/quePretendemos_2.jpg"
+            src="/¿QUÉ PRETENDEMOS_.png"
             alt="¿Qué pretendemos?"
             width={1000}
             height={100}
@@ -160,7 +160,7 @@ export default function Home() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20 text-white">¿CÓMO LO HACEMOS?</h2>
           <div className="w-full flex justify-center items-center">
             <Image
-              src="/comoLoHacemos_2.jpg"
+              src="/¿COMO LO HACEMOS_.png"
               alt="¿Cómo lo hacemos?"
               width={1000}
               height={100}

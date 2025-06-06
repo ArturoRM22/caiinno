@@ -16,7 +16,7 @@ export default function QuienesSomos() {
       <div className="w-full relative">
         <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
           <Image
-            src="/quePretendemos.jpg" 
+            src="/¿QUÉ PRETENDEMOS_.png" 
             alt="Our team working together"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
@@ -28,7 +28,7 @@ export default function QuienesSomos() {
       <div className="w-full relative">
         <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
           <Image
-            src="/comoLoHacemos.jpg" 
+            src="/¿COMO LO HACEMOS_.png" 
             alt="Our team working together"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
