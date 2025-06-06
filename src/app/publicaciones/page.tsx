@@ -29,7 +29,14 @@ export default function PublicationsPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {publications.map((pub) => {
+        {publications
+            .sort((a, b) => {
+              // Convert date strings to numbers for comparison
+              // If dates are years, this will work: "2024" > "2023"
+              // If dates are full dates, this will also work: "2024-12-01" > "2024-01-01"
+              return b.date.localeCompare(a.date);
+            })
+            .map((pub) => {
             const content = pub.multilingual[language];
             return (
               <Link

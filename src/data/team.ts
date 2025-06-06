@@ -5,9 +5,13 @@
           name: "Esteban Santamaría",
           title: "",
           bio: [
-            "Tiene una Maestría en Derecho de la Propiedad Intelectual por The George Washington University, para la que fue galardonado con la beca Fulbright. Es abogado y Maestro en Derecho Económico por la Benemérita Universidad Autónoma de Puebla, graduándose con la máxima distinción (cum laude).",
-            "Cuenta con experiencia en México y el extranjero tanto en la academia como en los sectores público y privado. Trabajó como Consultor Especialista en temas de propiedad intelectual, innovación y economía creativa en el Banco Interamericano de Desarrollo, para el que sigue siendo asesor externo.",
-            "Entre sus reconocimientos, fue ganador del concurso nacional a la mejor tesis de investigación en materia de derechos de autor y propiedad intelectual. Ha sido invitado como ponente y profesor por instituciones como el Banco Mundial, Gobierno de Guatemala, Oficina de PROMEXICO en Washington, D.C., entre otras."
+            "Ha pasado por los sectores público, privado, académico e internacional. Ha trabajado como especialista en temas de propiedad intelectual, innovación, economía creativa e inteligencia artificial para el Banco Mundial, el Banco Interamericano de Desarrollo (BID), y el Banco de Desarrollo de América Latina (CAF). Profesor de la Academia y la Maestría de la Organización Mundial de la Propiedad Intelectual (OMPI). Es fundador de CAIINNO. Es asesor internacional en propiedad intelectual e innovación.",
+            "Es Maestro en Derecho de la Propiedad Intelectual por The George Washington University, ubicada en el top del ranking mundial de maestrías de propiedad intelectual, para la que fue galardonado con la prestigiosa beca Fulbright. Es Doctor en Ciencias de Gobierno y Política por la Benemérita Universidad Autónoma de Puebla, así como Licenciado en Derecho y Maestro en Derecho Económico por la misma institución, graduado con la máxima distinción Cum Laude. Su tesis de Doctorado fue sobre la economía del conocimiento. Está Diplomado en inteligencia artificial y propiedad intelectual por el Centro de Estudios Internacionales de Propiedad Intelectual, de la Universidad de Estrasburgo.",
+            "Para el Banco Mundial apoyó en el diseño de una estrategia de política de economía creativa para los países. Así mismo, condujo el análisis sobre las implicaciones de la inteligencia artificial en la propiedad intelectual, en la aplicación de una herramienta del Banco.",
+            "Para el BID se encargó de proyectos e investigaciones enfocados a mejorar el desarrollo de América Latina y el Caribe, por ejemplo, del libro sobre derechos de propiedad intelectual y políticas públicas para la economía creativa.",
+            "Ha publicado varios documentos y artículos en fuentes como Oxford Academic, y por la Revista de la OMPI. Ha sido revisor de informes de la UNCTAD.",
+            "Desde CAIINNO, ha generado documentos que sirvieron en México como referencia para los gobiernos federal y locales, para políticas públicas, y como fuente para reformas de ley, particularmente en los temas de ciencia, tecnología e innovación, mujeres inventoras, y habilidades para innovar, entre otros. Su trabajo ha sido considerado por el gobierno federal mexicano, así como por gobiernos locales en sus planes estatales de desarrollo. Además, desde CAIINNO ha logrado gestionar la presentación de iniciativas de reformas de ley.",
+            "Amante del deporte, especialmente del karate. Participó en 2 campeonatos panamericanos y 2 campeonatos mundiales, obteniendo como máximo logro un segundo lugar en el Mundial de China en 2009."
           ]
         },
         {
@@ -43,27 +47,6 @@
             "Economista por la Universidad Autónoma del Estado de Hidalgo con énfasis en Desarrollo Tecnológico e Industrial. Actualmente trabajo como responsable de investigación económica para el Centro de Análisis para la Investigación en Innovación. Cuenta con una certificación en ciencia de datos por el Instituto Internacional de Ciencia de Datos y varios cursos sobre temas de machine learning, modelos predictivos y salud pública.",
             "En este ámbito, ha colaborado en investigaciones sobre propiedad intelectual, economía creativa, educación cívica e impactos de la innovación en México. Ha participado en proyectos como monitoreo de la aplicación efectiva de tarifas en el transporte público, modelos para predecir el nivel de riesgo en sectores como el de la salud y las finanzas, así como reportar el avance diario que tiene el coronavirus en el país. A su vez cuenta con cursos y participaciones de ponencia en temas como salud digital, movilidad urbana, desarrollo de software y emprendimiento."
           ]
-        },
-        {
-          name: "Meritzia García Covarrubias",
-          title: "",
-          bio: [
-            "Titulada en Ciencias Políticas y Administración Pública por la Universidad Autónoma del Estado de Hidalgo. Se ha desempeñado en el área de investigación en temas electorales, ciudadanía, democracia, mujeres, educación, políticas públicas, gobierno e instituciones. Actualmente se desempeña como docente e investigador."
-          ]
-        },
-        {
-          name: "Diana Mayan Flores Montiel",
-          title: "",
-          bio: [
-            "Licenciada en Ciencias de la Comunicación con énfasis en periodísmo, por la Universidad Autónoma del Estado de Hidalgo. Se ha desempañado laboralmente en el marketing digital. Actualmente labora en el área de comunicación y diseño de CAIINNO."
-          ]
-        },
-        {
-          name: "Karina Montes de Oca",
-          title: "",
-          bio: [
-            "Egresada de la Licenciatura en Derecho por la Universidad de las Américas Puebla. Dentro del ámbito profesional se ha desempeñado en el sector privado en las áreas de Derecho corporativo, civil, mercantil, laboral y constitucional. También ha laborado dentro de la Administración Pública y colaborado en la integración de programas gubernamentales en conjunto con la Sociedad Civil. A la vez cuenta con diplomado en juicios orales."
-          ]
         }
       ]
     },
@@ -73,9 +56,13 @@
           name: "Esteban Santamaría",
           title: "",
           bio: [
-            "Holds a Master's Degree in Intellectual Property Law from The George Washington University, for which he was awarded the Fulbright scholarship. He is a lawyer and holds a Master's in Economic Law from the Benemérita Universidad Autónoma de Puebla, graduating with highest honors (cum laude).",
-            "He has experience in both Mexico and abroad in academia as well as in the public and private sectors. He worked as a Specialist Consultant on intellectual property, innovation, and creative economy topics at the Inter-American Development Bank, for which he continues to serve as an external advisor.",
-            "Among his recognitions, he won the national competition for best research thesis on copyright and intellectual property. He has been invited as a speaker and professor by institutions such as the World Bank, Government of Guatemala, PROMEXICO Office in Washington, D.C., among others."
+            "He has navigated the public, private, academic, and international sectors. He has worked as a specialist in intellectual property, innovation, the creative economy, and artificial intelligence for the World Bank, the Inter-American Development Bank (IDB), and the Development Bank of Latin America (CAF). He is also a professor at the World Intellectual Property Organization (WIPO) Academy and its Master's program. He is the founder of the CAIINNO think tank and an international advisor on intellectual property and innovation.",
+            "He holds a Master of Laws (LL.M.) in Intellectual Property Law from The George Washington University, which ranks among the top IP Master's programs globally. For this, he was honored with the prestigious Fulbright Scholarship. He earned his Doctorate in Government and Political Science from the Benemérita Universidad Autónoma de Puebla, where he also completed his Bachelor of Laws and Master of Economic Law, graduating with Cum Laude distinction. His doctoral thesis focused on the knowledge economy. He also holds a diploma in Artificial Intelligence and Intellectual Property from the Centre for International Intellectual Property Studies (CEIPI) at the University of Strasbourg.",
+            "For the World Bank, he supported the design of a creative economy policy strategy for various countries. He also led the analysis of the implications of artificial intelligence for intellectual property in the application of a Bank tool.",
+            "At the IDB, he was responsible for projects and research aimed at improving development in Latin America and the Caribbean, including the book on intellectual property rights and public policies for the creative economy.",
+            "He has published numerous documents and articles in sources like Oxford Academic and the WIPO Magazine. He also served as a reviewer for UNCTAD reports.",
+            "Through CAIINNO, he has generated documents that served as references for Mexican federal and local governments for public policies and as a source for legal reforms, particularly concerning science, technology, innovation, women inventors, and innovation skills, among other areas. His work has been considered by the Mexican federal government and local governments in their state development plans. Additionally, through CAIINNO, he has successfully managed the presentation of legislative reform initiatives.",
+            "He is a sports enthusiast, especially of karate. He has participated in two Pan American championships and two World championships, achieving his highest accomplishment as a second-place finish at the 2009 World Championship in China."
           ]
         },
         {
@@ -110,27 +97,6 @@
           bio: [
             "Economist from the Universidad Autónoma del Estado de Hidalgo with an emphasis on Technological and Industrial Development. Currently working as Head of Economic Research for the Center for Analysis of Research in Innovation. Certified in Data Science by the International Data Science Institute with several courses on machine learning, predictive models, and public health.",
             "In this field, he has collaborated on research about intellectual property, creative economy, civic education, and impacts of innovation in Mexico. He has participated in projects such as monitoring effective fare implementation in public transportation, models to predict risk levels in sectors like health and finance, as well as reporting the daily progress of coronavirus in the country. He also has courses and speaking engagements on topics like digital health, urban mobility, software development, and entrepreneurship."
-          ]
-        },
-        {
-          name: "Meritzia García Covarrubias",
-          title: "",
-          bio: [
-            "Graduate in Political Science and Public Administration from the Universidad Autónoma del Estado de Hidalgo. She has worked in research on electoral issues, citizenship, democracy, women, education, public policies, government and institutions. Currently working as a teacher and researcher."
-          ]
-        },
-        {
-          name: "Diana Mayan Flores Montiel",
-          title: "",
-          bio: [
-            "Bachelor's degree in Communication Sciences with an emphasis on journalism from the Universidad Autónoma del Estado de Hidalgo. She has worked in digital marketing. Currently works in CAIINNO's communication and design area."
-          ]
-        },
-        {
-          name: "Karina Montes de Oca",
-          title: "",
-          bio: [
-            "Law degree graduate from Universidad de las Américas Puebla. Professionally, she has worked in the private sector in corporate, civil, commercial, labor, and constitutional law areas. She has also worked in Public Administration and collaborated in the integration of government programs together with Civil Society. She also holds a diploma in oral trials."
           ]
         }
       ]
