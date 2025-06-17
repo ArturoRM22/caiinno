@@ -4,6 +4,7 @@ export const events: Event[] = [
   {
     id: '0',
     title: 'PRESENTACIÓN DEL CENTRO DE ANÁLISIS PARA INVESTIGACIÓN EN INNOVACIÓN Y SU CONSEJO DE ASESORES Y PRESENTACIÓN DEL OBSERVATORIO ELECTORAL RAMO 38',
+    date: '2014',
     images: [
       {
         url: '/events/ramo38/portada-ramo.jpg',
@@ -30,6 +31,7 @@ export const events: Event[] = [
   {
     id: '1',
     title: 'PRESENTACIÓN DEL ÍNDICE NACIONAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN 2015 Y MESA DE ANÁLISIS',
+    date: '2015',
     images: [
       {
         url: '/events/indiceNacional/portada-incti.jpg',
@@ -60,6 +62,7 @@ export const events: Event[] = [
   {
     id: '2',
     title: 'MESAS DE DISCUCIÓN HABILIDADES PARA LA INNOVACIÓN, EN COLABORACIÓN CON EL BRITISH COUNCIL',
+    date: '2016',
     images: [
       {
         url: '/events/habilidadesInnovacion/habilidades-innovacion.jpg',
@@ -90,6 +93,7 @@ export const events: Event[] = [
   {
     id: '3',
     title: 'MESAS DE ANÁLISIS MULTAS ELECTORALES A CYT: EFICIENCIA E IMPACTO DE SU EJECUCIÓN',
+    date: '2016',
     images: [
       {
         url: '/events/multasElectorales/invitacion-multas-electorales-a-cyt-slide.jpeg',
@@ -112,6 +116,7 @@ export const events: Event[] = [
   {
     id: '4',
     title: 'CONFERENCIA Y MESAS DE ANÁLISIS DEL EVENTO “CAMPO MEXICANO: INNOVACIÓN, CAMBIO CLIMÁTICO Y SEGURIDAD ALIMENTARIA”, EN COLABORACIÓN CON LA OFICINA DE PATENTES Y MARCAS DE LOS ESTADOS UNIDOS',
+    date: '2016',
     images: [
       {
         url: '/events/seguridadAlimentaria/presentacion.jpeg',
@@ -138,6 +143,7 @@ export const events: Event[] = [
   {
     id: '5',
     title: ' Impulsando la creatividad emprendedora',
+    date: '2017',
     images: [
       {
         url: '/events/creatividadEmprendedora/1.jpg',
@@ -164,6 +170,7 @@ export const events: Event[] = [
   {
     id: '6',
     title: 'Conferencia de Yajaira Sierra-Sastre de la misión de la NASA a Marte | CAIINNO',
+    date: '2021',
     images: [
       {
         url: '/events/YajairaEvent/1.png',
@@ -218,6 +225,7 @@ export const events: Event[] = [
   {
     id: '7',
     title: 'CAIINNO fue reconocido con el Premio de Innovación y Buenas Prácticas en la Protección de Datos Personales, otorgado por el INAI.🏆',
+    date: '2019',
     images: [
       {
         url: '/events/premioDATOS/1.jpg',
@@ -228,6 +236,7 @@ export const events: Event[] = [
   {
     id: '8',
     title: 'PREMIO: Uso de inteligencia artificial para evaluar los riesgos en el uso de datos personales de los que se es responsable, en actividades de investigación realizadas dentro de la ONG',
+    date: '2022',
     images: [
       {
         url: '/events/premioIA/1.jpg',
@@ -242,9 +251,65 @@ export const events: Event[] = [
   {
     id: '9',
     title: 'PATENTES VERDES EN MÉXICO del 2017 al 2022 Y SU IDENTIFICACIÓN POR GÉNERO',
+    date: '2022',
     images: [
       {
         url: '/events/patentesVerdes/1.jpeg',
+        alt: 'Foto del evento 1'
+      }
+    ]
+  },
+  {
+    id: '10',
+    title: '¿CÓMO FUNCIONAN LAS ELECCIONES EN ESTADOS UNIDOS DE AMÉRICA?',
+    date: '2020',
+    images: [
+      {
+        url: '/events/USAelections/1.jpg',
+        alt: 'Foto del evento 1'
+      }
+    ]
+  },
+  {
+    id: '11',
+    title: 'Día mundial de la propiedad intelectual',
+    date: '2020',
+    images: [
+      {
+        url: '/events/DiaMundialPropiedadIntelectual/1.jpg',
+        alt: 'Foto del evento 1'
+      }
+    ]
+  },
+  {
+    id: '12',
+    title: 'Presentación de la plataforma comparovoto.org/',
+    date: '2018',
+    images: [
+      {
+        url: '/events/comparoVoto/1.jpg',
+        alt: 'Foto del evento 1'
+      }
+    ]
+  },
+  {
+    id: '13',
+    title: 'Estudio sobre mujeres inventoras en #Brasil, #Chile, #Colombia y #México',
+    date: '2023',
+    images: [
+      {
+        url: '/events/MujeresInventoras/1.jpg',
+        alt: 'Foto del evento 1'
+      }
+    ]
+  },
+  {
+    id: '14',
+    title: 'World Intellectual Property Day',
+    date: '2022',
+    images: [
+      {
+        url: '/events/PropiedadIntelectual/1.jpg',
         alt: 'Foto del evento 1'
       }
     ]

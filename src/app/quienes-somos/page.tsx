@@ -14,7 +14,7 @@ export default function QuienesSomos() {
       </div>
 
       <div className="w-full relative">
-        <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
+        <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative mt-12">
           <Image
             src="/¿QUÉ PRETENDEMOS_.png" 
             alt="Our team working together"
@@ -26,22 +26,10 @@ export default function QuienesSomos() {
         </div>
       </div>
       <div className="w-full relative">
-        <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
+        <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative mt-12">
           <Image
             src="/¿COMO LO HACEMOS_.png" 
             alt="Our team working together"
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-            className="object-contain"
-            priority
-          />
-        </div>
-      </div>
-      <div className="w-full relative">
-        <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
-          <Image
-            src="/9areas.jpg" 
-            alt="9 areas de enfoque"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
             className="object-contain"
@@ -55,7 +43,7 @@ export default function QuienesSomos() {
           <h2 className="text-2xl md:text-3xl font-bold mb-6">
             Explora nuestro trabajo
           </h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
             Descubre nuestras investigaciones, estudios y publicaciones más recientes que contribuyen a la innovación y al desarrollo de políticas en México y América Latina.
           </p>
           <Link

@@ -58,25 +58,13 @@ export default function AboutUs() {
             />
           </div>
         </div>
-
-        <div className="w-full relative mt-12">
-          <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
-            <Image
-              src="/areasEnglish.jpg"
-              alt="9 areas english"
-              fill
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
-              className="object-contain"
-            />
-          </div>
-        </div>
       </div>
       <div className="container mx-auto px-4 py-16 max-w-5xl">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">
             Explore Our Work
           </h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+          <p className="text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
             Discover our latest research, studies, and publications that contribute to innovation 
             and policy development in Mexico and Latin America.
           </p>

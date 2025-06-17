@@ -8,13 +8,8 @@ export default function Publication({
   content,
   downloadLink,
   tags,
-  language = 'es'
+  language = 'es',
 }: PublicationProps) {
-  // Find the first YouTube video in media array
-  const videoMedia = media?.find(item => item.type === 'youtube');
-  // Find the first image in media array if there's no video
-  const imageMedia = !videoMedia ? media?.find(item => item.type === 'image') : null;
-
   // Helper function to get button text based on download key and language
   const getButtonText = (downloadKey: string) => {
     if (downloadKey === 'database') {
@@ -35,25 +30,36 @@ export default function Publication({
   return (
     <>
       <h1 className="text-2xl sm:text-2xl md:text-4xl font-bold mb-12 text-center">{title}</h1>
-      
+
       {/* Media Section */}
       <div className="mb-12">
-        {videoMedia ? (
-          <PersuasiveYouTube id={videoMedia.url} />
-        ) : imageMedia && (
-          <div className="relative aspect-[16/9] w-full">
-            <Image
-              src={imageMedia.url}
-              alt={imageMedia.alt || title}
-              fill
-              className="object-contain rounded-lg"
-              sizes="(max-width: 1200px) 100vw, 1200px"
-              priority
-            />
-          </div>
-        )}
+        {media?.map((item, index) => {
+          if (item.type === 'image') {
+            return (
+              <div key={index} className="relative aspect-[16/9] w-full mb-6">
+                <Image
+                  src={item.url}
+                  alt={item.alt || title}
+                  fill
+                  className="object-contain rounded-lg"
+                  sizes="(max-width: 1200px) 100vw, 1200px"
+                  priority
+                />
+              </div>
+            );
+          }
+          if (item.type === 'youtube') {
+            return (
+              <div key={index} className="mb-6">
+                <PersuasiveYouTube id={item.url} />
+              </div>
+            );
+          }
+          return null;
+        })}
       </div>
-  
+
+      {/* Content Section */}
       <div className="space-y-8 mb-12">
         {content.map((section, index) => {
           switch (section.type) {
@@ -66,17 +72,17 @@ export default function Publication({
                       {content[index + 1].content}
                     </p>
                   )}
-                  {typeof downloadLink === 'object' && 
-                   downloadLink && 
-                   section.downloadKey && 
-                   downloadLink[section.downloadKey] && (
-                    <a 
-                      href={downloadLink[section.downloadKey]}
-                      className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300 text-sm sm:text-base"
-                    >
-                      {getButtonText(section.downloadKey)}
-                    </a>
-                  )}
+                  {typeof downloadLink === 'object' &&
+                    downloadLink &&
+                    section.downloadKey &&
+                    downloadLink[section.downloadKey] && (
+                      <a
+                        href={downloadLink[section.downloadKey]}
+                        className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300 text-sm sm:text-base"
+                      >
+                        {getButtonText(section.downloadKey)}
+                      </a>
+                    )}
                 </div>
               );
             case 'paragraph':
@@ -95,7 +101,10 @@ export default function Publication({
               );
             case 'quote':
               return (
-                <blockquote key={index} className="border-l-4 border-gray-300 pl-4 italic my-4 text-base sm:text-lg md:text-xl text-gray-600">
+                <blockquote
+                  key={index}
+                  className="border-l-4 border-gray-300 pl-4 italic my-4 text-base sm:text-lg md:text-xl text-gray-600"
+                >
                   {section.content}
                 </blockquote>
               );
@@ -104,7 +113,8 @@ export default function Publication({
           }
         })}
       </div>
-  
+
+      {/* Tags Section */}
       {tags && (
         <div className="mt-8 flex flex-wrap gap-2">
           {tags.map((tag) => (
@@ -119,5 +129,4 @@ export default function Publication({
       )}
     </>
   );
-  
 }

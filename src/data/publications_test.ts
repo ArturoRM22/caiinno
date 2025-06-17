@@ -6,7 +6,7 @@ export const publications: Publication[] = [
     {
         id: '1',
         slug: 'green-patents',
-        date: '2024',
+        date: '2022',
         media: [
             {
                 type: 'image',
@@ -265,6 +265,11 @@ export const publications: Publication[] = [
             alt: 'Economía Creativa'
           },
           {
+            type: 'image',
+            url: '/publications/convocatoria-a-investigadores.png',
+            alt: 'Economía Creativa'
+          },
+          {
             type: 'youtube',
             url: '0M7YtW3MTjs',
             alt: 'Economía Creativa'
@@ -319,7 +324,7 @@ export const publications: Publication[] = [
           }
         }
       },
-      {
+      /*{
         id: '6',
         slug: 'industrias-creativas',
         date: '2024-03-20',
@@ -354,7 +359,7 @@ export const publications: Publication[] = [
             tags: ['Creative Industries']
           }
         }
-      },
+      },*/
       {
         id: '7',
         slug: 'mujeres-inventoras',
@@ -372,10 +377,8 @@ export const publications: Publication[] = [
           }
         ],
         downloadLink: {
-          'esp-2017-2020': '#',
-          'eng-2017-2020': '#',
-          '2014-2016': '#',
-          'database': '#'
+          'esp-2017-2020': 'https://www.caiinno.org/wp-content/uploads/2018/12/Mujeres-Inventoras.pdf',
+          'eng-2017-2020': 'https://www.caiinno.org/wp-content/uploads/2020/07/Women-inventors.pdf'
         },
         multilingual: {
           es: {
@@ -399,24 +402,6 @@ export const publications: Publication[] = [
               {
                 type: 'paragraph',
                 content: 'Para descargar nuestra publicación sobre Mujeres Inventoras 2017-2020 (Versión Inglés): Patentando en México'
-              },
-              {
-                type: 'heading',
-                content: 'Publicación 2014-2016',
-                downloadKey: '2014-2016'
-              },
-              {
-                type: 'paragraph',
-                content: 'Para descargar nuestra publicación sobre Mujeres Inventoras 2014-2016: Patentando en México #PatentesRosas'
-              },
-              {
-                type: 'heading',
-                content: 'Banco de datos',
-                downloadKey: 'database'
-              },
-              {
-                type: 'paragraph',
-                content: 'Para acceder al Banco de Datos sobre Mujeres Inventoras: Patentando en México #PatentesRosas, da click aquí.'
               }
             ],
             tags: ['Mujeres Inventoras', 'Patentes', 'Investigación', 'PatentesRosas']
@@ -442,24 +427,6 @@ export const publications: Publication[] = [
               {
                 type: 'paragraph',
                 content: 'Download our English-language publication on Women Inventors 2017-2020: Patenting in Mexico'
-              },
-              {
-                type: 'heading',
-                content: 'Publication 2014-2016',
-                downloadKey: '2014-2016'
-              },
-              {
-                type: 'paragraph',
-                content: 'Download our publication on Women Inventors 2014-2016: Patenting in Mexico #PinkPatents'
-              },
-              {
-                type: 'heading',
-                content: 'Database',
-                downloadKey: 'database'
-              },
-              {
-                type: 'paragraph',
-                content: 'Access the Women Inventors Database: Patenting in Mexico #PinkPatents by clicking here.'
               }
             ],
             tags: ['Women Inventors', 'Patents', 'Research', 'PinkPatents']
@@ -533,7 +500,7 @@ export const publications: Publication[] = [
           }
         }
       },
-      {
+      /*{
         id: '11',
         slug: 'alumni-engagement-innovation-found',
         date: '2017',
@@ -558,7 +525,7 @@ export const publications: Publication[] = [
             tags: ['Alumni', 'Innovation']
           }
         }
-      },
+      },*/
       {
         id: '13',
         slug: 'propiedad-intelectual-creatividad',
@@ -599,11 +566,11 @@ export const publications: Publication[] = [
         downloadLink: {
           'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2018/07/PI-Algunas-Propuestas-CAIINNO.pdf'
         }
-      },
-{
+      },  
+    {
     id: '16',
     slug: 'formacion-ciudadana-para-emprendedores',
-    date: '',
+    date: '2018',
     media: [
       {
         type: 'image',
@@ -620,7 +587,48 @@ export const publications: Publication[] = [
       es: {
         title: 'Formación Ciudadana para Emprendedores',
         description: '',
-        content: [],
+        content: [
+          {
+            type: 'heading',
+            content: 'FOMACIÓN CÍVICA Y ÉTICA EN MÉXICO',
+            downloadKey: 'formacion-civica-etica'
+          },
+          {
+            type: 'heading',
+            content: 'Resumen Ejecutivo "FORMACIÓN CÍVICA Y ÉTICA PARA EMPRENDEDORES"',
+            downloadKey: 'resumen-ejecutivo'
+          },
+          {
+            type: 'heading',
+            content: 'EMPRENDIMIENTO Y GÉNERO EN MÉXICO',
+            downloadKey: 'emprendimiento-genero-mexico'
+          },
+          {
+            type: 'heading',
+            content: 'VALORES EN LOS NEGOCIOS Y EMPRENDIMIENTO',
+            downloadKey: 'valores-negocios-emprendimiento'
+          },
+          {
+            type: 'heading',
+            content: 'EMPRENDIMIENTO Y GÉNERO',
+            downloadKey: 'emprendimiento-genero'
+          },
+          {
+            type: 'heading',
+            content: 'EVALUACIÓN PARTICIPATIVA',
+            downloadKey: 'evaluacion-participativa'
+          },
+          {
+            type: 'heading',
+            content: 'METODOLOGÍA DEL TALLER DE "FORMACIÓN CÍVICA Y ÉTICA PARA EMPRENDEDORES"',
+            downloadKey: 'metodologia-taller'
+          },
+          {
+            type: 'heading',
+            content: 'IMPLEMENTACIÓN DEL TALLER DE "FORMACIÓN CÍVICA Y ÉTICA PARA EMPRENDEDORES"',
+            downloadKey: 'implementacion-taller'
+          }
+        ],
         tags: ['Formación Ciudadana', 'Emprendedores']
       },
       en: {
@@ -629,6 +637,16 @@ export const publications: Publication[] = [
         content: [],
         tags: ['Civic Training', 'Entrepreneurs']
       }
+    },
+    downloadLink: {
+      'formacion-civica-etica': 'https://www.caiinno.org/wp-content/uploads/2017/07/formacion-civica1.pdf',
+      'resumen-ejecutivo': 'https://www.caiinno.org/wp-content/uploads/2017/07/Resumen-ejecutivo.pdf',
+      'emprendimiento-genero-mexico': 'https://www.caiinno.org/wp-content/uploads/2017/05/emprendimiento-y-g%C3%A9nero.pdf',
+      'valores-negocios-emprendimiento': 'https://www.caiinno.org/wp-content/uploads/2017/07/valores-en-los-negocios.pdf',
+      'emprendimiento-genero': 'https://www.caiinno.org/wp-content/uploads/2017/07/emprendimiento-y-genero.pdf',
+      'evaluacion-participativa': 'https://www.caiinno.org/wp-content/uploads/2017/07/EVALUACO%C3%ACN-1.pdf',
+      'metodologia-taller': 'https://www.caiinno.org/wp-content/uploads/2017/07/Metodolog%C3%ADa-del-proyecto-Taller-Emprendimiento-con-Valores.pdf',
+      'implementacion-taller': 'https://www.caiinno.org/wp-content/uploads/2017/07/Implementaci%C3%B3n-Taller-Emprendimiento-con-Valores.pdf'
     }
   },
   {
@@ -738,7 +756,230 @@ export const publications: Publication[] = [
     downloadLink: {
       'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2025/05/CAIINNO-INDICE-2025.pdf'
     }
-  }          
+  }, 
+  {
+    id: '20',
+    slug: 'indice-nacional-de-ciencia-tecnologia-e-innovacion-2018',
+    date: '2018',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/ÍNDICE-NACIONAL-DE-CIENCIA-TECNOLOGÍA-E-INNOVACIÓN-2018.png',
+        alt: 'INDICE-NACIONAL-DE-CIENCIA-TECNOLOGÍA-E-INNOVACIÓN-2018'
+      },
+      {
+        type: 'youtube',
+        url: '2pqrob4I6iU',
+        alt: '#INCTI-CAIINNO2018'
+      }
+    ],
+    multilingual: {
+      es: {
+        title: 'Índice Nacional de Ciencia, Tecnología e Innovación 2018',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          },
+          {
+            type: 'heading',
+            content: 'Descarga la versión anterior en este link',
+            downloadKey: 'spanish-version-previous'
+          }
+        ],
+        tags: ['Habilidades', 'Innovación']
+      },
+      en: {
+        title: 'National Index of Science, Technology and Innovation 2018',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication at this link',
+            downloadKey: 'english-version'
+          },
+          {
+            type: 'heading',
+            content: 'Download the previous version at this link',
+            downloadKey: 'spanish-version-previous'
+          }
+        ],
+        tags: ['Skills', 'Innovation']
+      }
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2018/12/INDICE-2018.pdf',
+      'english-version': 'https://www.caiinno.org/wp-content/uploads/2020/06/1.2ENINDICE-CTI-2018-2018-briefing.pdf',
+      'spanish-version-previous': 'https://www.caiinno.org/wp-content/uploads/2016/01/INCTI-CAIINNO2015.pdf'
+    }
+  },
+  {
+    id: '21',
+    slug: 'indice-nacional-de-ciencia-tecnologia-e-innovacion-2015',
+    date: '2015',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/indice-nacional-de-ciencia-2015.png',
+        alt: 'INDICE-NACIONAL-DE-CIENCIA-TECNOLOGÍA-E-INNOVACIÓN-2015'
+      }
+    ],
+    multilingual: {
+      es: {
+        title: 'Índice Nacional de Ciencia, Tecnología e Innovación 2015',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Habilidades', 'Innovación']
+      },
+      en: {
+        title: 'National Index of Science, Technology and Innovation 2015',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication at this link',
+            downloadKey: 'english-version'
+          }
+        ],
+        tags: ['Skills', 'Innovation']
+      }
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2016/01/INCTI-CAIINNO2015.pdf',
+      'english-version': 'https://www.caiinno.org/wp-content/uploads/2020/06/EN-Briefing-INCTI-CAIINNO-2015.pdf'
+    }
+  },
+  {
+    id: '22',
+    slug: 'panorama-de-la-propiedad-intelectual-en-mexico-otra-perspectiva',
+    date: '2016',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/PanoramaPropiedadIntelectualMexico.png',
+        alt: 'PANORAMA DE LA PROPIEDAD INTELECTUAL EN MÉXICO: OTRA PERSPECTIVA'
+      }
+    ],
+    multilingual: {
+      es: {
+        title: 'PANORAMA DE LA PROPIEDAD INTELECTUAL EN MÉXICO: OTRA PERSPECTIVA',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Habilidades', 'Innovación']
+      },
+      en: {
+        title: 'INTELLECTUAL PROPERTY OVERVIEW IN MEXICO: ANOTHER PERSPECTIVE',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication at this link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Skills', 'Innovation']
+      }
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2016/08/Estado-general-de-la-propiedad-intelectual-en-M%C3%A9xico.pdf'
+    }
+  },
+  {
+    id: '23',
+    slug: 'emprendimiento-y-genero-en-mexico',
+    date: '2017',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/EmprendimientoYGeneroEnMexico.png',
+        alt: 'EMPRENDIMIENTO Y GÉNERO EN MÉXICO'
+      }
+    ],
+    multilingual: {
+      es: {
+        title: 'EMPRENDIMIENTO Y GÉNERO EN MÉXICO',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Habilidades', 'Innovación']
+      },
+      en: {
+        title: 'ENTREPRENEURSHIP AND GENDER IN MEXICO',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication at this link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Skills', 'Innovation']
+      }
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2017/05/emprendimiento-y-g%C3%A9nero.pdf'
+    }
+  },
+  {
+    id: '24',
+    slug: 'patentes-verdes-en-el-pais',
+    date: '2025',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/PatentesVerdesEnElPais.png',
+        alt: 'PATENTES VERDES EN  EL PAÍS'
+      }
+    ],
+    multilingual: {
+      es: {
+        title: 'PATENTES VERDES EN EL PAÍS',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Patentes', 'Innovación', 'Sustentabilidad', 'Medio Ambiente']
+      },
+      en: {
+        title: 'GREEN PATENTS IN THE COUNTRY',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication at this link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Innovation',  'Sustainability', 'Environment', 'Patents']
+      }
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2025/06/patentesverdesenelpais.pdf'
+    }
+  }
 ];
 
 

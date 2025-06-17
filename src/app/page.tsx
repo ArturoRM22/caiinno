@@ -146,34 +146,43 @@ export default function Home() {
           <Image
             src="/¿QUÉ PRETENDEMOS_.png"
             alt="¿Qué pretendemos?"
-            width={1000}
-            height={100}
+            width={1400}
+            height={250}
             priority
-            className="w-full max-w-[1000px]"
+            className="w-full max-w-[1400px]"
           />
         </div>
       </div>
     </section>
 
-      <section id="como-lo-hacemos" className="lg:min-h-screen bg-gray-900 pb-6 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
+      <section id="como-lo-hacemos" className="lg:min-h-screen bg-blue-200 pb-6 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
         <div className="container mx-auto px-4 sm:px-6">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20 text-white">¿CÓMO LO HACEMOS?</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20">¿CÓMO LO HACEMOS?</h2>
           <div className="w-full flex justify-center items-center">
             <Image
               src="/¿COMO LO HACEMOS_.png"
               alt="¿Cómo lo hacemos?"
-              width={1000}
-              height={100}
+              width={1250}
+              height={200}
               priority
+              className="w-full max-w-[1250px]"
             />
           </div>
         </div>
       </section>
  
-      <section id="impacto" className="min-h-screen bg-white py-16 px-4">
+      <section id="impacto" className="min-h-screen bg-white py-30 px-4">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12">IMPACTO</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-8 sm:mb-12">IMPACTO</h2>
           <ImpactCards/>
+          <div className="flex justify-center items-center mt-10 sm:mt-16 md:mt-20">
+            <Link
+              href="/impacto"
+              className="inline-block px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+            >
+              Saber más
+            </Link>
+          </div>
         </div>
       </section>
 
