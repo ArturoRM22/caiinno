@@ -313,5 +313,55 @@ export const events: Event[] = [
         alt: 'Foto del evento 1'
       }
     ]
+  },
+        {
+    id: '15',
+    title: 'Taller de Propiedad Intelectual para Empresas Emergentes',
+    date: '2025',
+    images: [
+      {
+        url: '/events/TallerPropiedadIntelectual2025/1.jpeg',
+        alt: 'Foto del evento 1'
+      },
+      {
+        url: '/events/TallerPropiedadIntelectual2025/2.jpeg',
+        alt: 'Foto del evento 2'
+      },
+    ]
+  },
+          {
+    id: '16',
+    title: 'Taller de PI para empresas emergentes',
+    date: '2025',
+    images: [
+      {
+        url: '/events/TallerPI2025/1.jpeg',
+        alt: 'Foto del evento 1'
+      },
+      {
+        url: '/events/TallerPI2025/2.jpeg',
+        alt: 'Foto del evento 2'
+      },
+      {
+        url: '/events/TallerPI2025/3.jpeg',
+        alt: 'Foto del evento 3'
+      },
+      {
+        url: '/events/TallerPI2025/4.jpeg',
+        alt: 'Foto del evento 4'
+      },
+      {
+        url: '/events/TallerPI2025/5.jpeg',
+        alt: 'Foto del evento 5'
+      },
+      {
+        url: '/events/TallerPI2025/6.jpeg',
+        alt: 'Foto del evento 6'
+      },
+      {
+        url: '/events/TallerPI2025/7.jpeg',
+        alt: 'Foto del evento 7'
+      },
+    ]
   }
 ];

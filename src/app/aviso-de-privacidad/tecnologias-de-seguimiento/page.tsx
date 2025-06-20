@@ -1,4 +1,4 @@
-export default function Finalidades() {
+export default function TecnologiasSeguimiento() {
   return (
     <section className="w-full max-w-4xl px-4 my-12 flex flex-col items-center mx-auto">
       <div className="w-full">

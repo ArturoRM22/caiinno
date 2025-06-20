@@ -26,5 +26,16 @@ export const impactos: Event[] = [
         alt: 'Foto del evento 3'
       }
     ]
-  }
+  },
+    {
+    id: '2',
+    title: 'Convocatoria a Investigadores',
+    date: '2021',
+    images: [
+      {
+        url: '/publications/convocatoria-a-investigadores.png',
+        alt: 'Foto del evento 1'
+      },
+    ]
+  },
 ];

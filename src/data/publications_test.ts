@@ -6,7 +6,7 @@ export const publications: Publication[] = [
     {
         id: '1',
         slug: 'green-patents',
-        date: '2022',
+        date: '2024',
         media: [
             {
                 type: 'image',
@@ -281,7 +281,7 @@ export const publications: Publication[] = [
         },
         multilingual: {
           es: {
-            title: 'Economía Creativa',
+            title: 'Economía del conocimiento y economía creativa como herramientas para salir de la crisis generada por el COVID-19 en América Latina y el Caribe: un enfoque hacía la Alianza del Pacífico', 
             description: 'Estudio sobre la economía creativa',
             content: [
               {
@@ -377,8 +377,8 @@ export const publications: Publication[] = [
           }
         ],
         downloadLink: {
-          'esp-2017-2020': 'https://www.caiinno.org/wp-content/uploads/2018/12/Mujeres-Inventoras.pdf',
-          'eng-2017-2020': 'https://www.caiinno.org/wp-content/uploads/2020/07/Women-inventors.pdf'
+          'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2022/04/Mujeres-Inventoras-2017-2020_CAIINNO.pdf',
+          'english-version': 'https://www.caiinno.org/wp-content/uploads/2022/04/Mexican-women-inventors-CAIINNO.pdf'
         },
         multilingual: {
           es: {
@@ -388,7 +388,7 @@ export const publications: Publication[] = [
               {
                 type: 'heading',
                 content: 'Publicación 2017-2020 (Versión Español)',
-                downloadKey: 'esp-2017-2020'
+                downloadKey: 'spanish-version'
               },
               {
                 type: 'paragraph',
@@ -397,7 +397,7 @@ export const publications: Publication[] = [
               {
                 type: 'heading',
                 content: 'Publicación 2017-2020 (Versión Inglés)',
-                downloadKey: 'eng-2017-2020'
+                downloadKey: 'english-version'
               },
               {
                 type: 'paragraph',
@@ -413,7 +413,7 @@ export const publications: Publication[] = [
               {
                 type: 'heading',
                 content: 'Publication 2017-2020 (Spanish Version)',
-                downloadKey: 'esp-2017-2020'
+                downloadKey: 'spanish-version'
               },
               {
                 type: 'paragraph',
@@ -422,7 +422,7 @@ export const publications: Publication[] = [
               {
                 type: 'heading',
                 content: 'Publication 2017-2020 (English Version)',
-                downloadKey: 'eng-2017-2020'
+                downloadKey: 'english-version'
               },
               {
                 type: 'paragraph',
@@ -471,32 +471,6 @@ export const publications: Publication[] = [
               }
             ],
             tags: ['Call', 'Research', 'Latin America']
-          }
-        }
-      },
-      {
-        id: '10',
-        slug: 'premio-innovacion-datos-personales',
-        date: '2019',
-        media: [
-          {
-            type: 'image',
-            url: '/publications/ganador.png',
-            alt: 'Premio de innovación en protección de datos personales'
-          }
-        ],
-        multilingual: {
-          es: {
-            title: 'Premio de innovación y buenas prácticas en la protección de los datos personales 2019',
-            description: 'Reconocimiento a las mejores prácticas en innovación y protección de datos personales en México.',
-            content: [],
-            tags: ['Premio', 'Datos Personales', 'Innovación']
-          },
-          en: {
-            title: '2019 Award for Innovation and Best Practices in Personal Data Protection',
-            description: 'Recognition of best practices in innovation and personal data protection in Mexico.',
-            content: [],
-            tags: ['Award', 'Personal Data', 'Innovation']
           }
         }
       },
@@ -978,6 +952,49 @@ export const publications: Publication[] = [
     },
     downloadLink: {
       'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2025/06/patentesverdesenelpais.pdf'
+    }
+  },
+  {
+    id: '25',
+    slug: 'mujeres-inventoras-patentando-en-mexico',
+    date: '2018',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/mujeres-inventoras-patentando-en-mexico.png',
+        alt: 'Mujeres Inventoras: Patentando en México'
+      }
+    ],
+    multilingual: {
+      es: {
+        title: 'Mujeres Inventoras: Patentando en México ¿Cómo vamos?',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Patentes', 'Innovación', 'Mujeres', 'Inventoras']
+      },
+      en: {
+        title: 'Women Inventors: Patenting in Mexico How are we doing?',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication at this link',
+            downloadKey: 'english-version'
+          }
+        ],
+        tags: ['Innovation',  'Women', 'Patents', 'Inventors']
+      
+      },
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2018/12/Mujeres-Inventoras.pdf',
+      'english-version': 'https://www.caiinno.org/wp-content/uploads/2020/07/Women-inventors.pdf'
     }
   }
 ];
