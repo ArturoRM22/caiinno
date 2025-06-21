@@ -44,37 +44,37 @@ export default function AvisoDePrivacidad() {
         {/* Section 3 */}
         <div className="flex items-start gap-4">
           <FaYoutube size={20} className="text-[#FF0000] mt-1 flex-shrink-0" />
-          <div>
+          <Link href="/aviso-de-privacidad/tecnologias-de-seguimiento" className="hover:opacity-80 transition-opacity">
             <h3 className="text-lg font-bold text-[#004b8d] mb-2">Uso de las tecnologías de seguimiento</h3>
             <p className="text-sm text-gray-700">[Información sobre cookies y tecnologías similares]</p>
-          </div>
+          </Link>
         </div>
 
         {/* Section 4 */}
         <div className="flex items-start gap-4">
           <FaYoutube size={20} className="text-[#FF0000] mt-1 flex-shrink-0" />
-          <div>
+          <Link href="/aviso-de-privacidad/transferencia-datos-personales" className="hover:opacity-80 transition-opacity">
             <h3 className="text-lg font-bold text-[#004b8d] mb-2">Transferencias de Datos Personales</h3>
             <p className="text-sm text-gray-700">[Detalles sobre compartir datos con terceros]</p>
-          </div>
+          </Link>
         </div>
 
         {/* Section 5 */}
         <div className="flex items-start gap-4">
           <FaYoutube size={20} className="text-[#FF0000] mt-1 flex-shrink-0" />
-          <div>
+          <Link href={"/aviso-de-privacidad/derecho-respecto-a-datos-personales"} className="hover:opacity-80 transition-opacity">
             <h3 className="text-lg font-bold text-[#004b8d] mb-2">Derechos respecto a sus derechos Personales</h3>
             <p className="text-sm text-gray-700">[Explicación de derechos ARCO]</p>
-          </div>
+          </Link>
         </div>
 
         {/* Section 6 */}
         <div className="flex items-start gap-4">
           <FaYoutube size={20} className="text-[#FF0000] mt-1 flex-shrink-0" />
-          <div>
+          <Link href={"/aviso-de-privacidad/principios-y-deberes-en-materia-de-proteccion-de-datos-personales"} className="hover:opacity-80 transition-opacity">
             <h3 className="text-lg font-bold text-[#004b8d] mb-2">Principios y deberes en materia de protección de datos personales</h3>
             <p className="text-sm text-gray-700">[Principios de licitud, consentimiento, etc.]</p>
-          </div>
+          </Link>
         </div>
 
         {/* Section 7 */}

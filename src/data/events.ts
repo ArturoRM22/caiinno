@@ -316,7 +316,7 @@ export const events: Event[] = [
   },
         {
     id: '15',
-    title: 'Taller de Propiedad Intelectual para Empresas Emergentes',
+    title: 'Taller de Propiedad Intelectual para Empresas Emergentes, una colaboración entre la World Intellectual Property Organization - WIPO, CAIINNO',
     date: '2025',
     images: [
       {
@@ -331,7 +331,7 @@ export const events: Event[] = [
   },
           {
     id: '16',
-    title: 'Taller de PI para empresas emergentes',
+    title: 'Taller de PI para empresas emergentes de la World Intellectual Property Organization - WIPO y CAIINNO',
     date: '2025',
     images: [
       {

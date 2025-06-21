@@ -1,5 +1,3 @@
-// publications.ts (updated with multilingual content)
-
 import { Publication } from "@/models/Publication";
 
 export const publications: Publication[] = [
@@ -34,14 +32,14 @@ export const publications: Publication[] = [
                     },
                     {
                         type: 'heading',
-                        content: 'Download the english version of the publication in this link',
+                        content: 'Download the English version of the publication in this link',
                         downloadKey: 'english-version'
                     }
                 ],
                 tags: ['Patentes', 'Sustentabilidad', 'Innovación']
             },
             en: {
-                title: 'Green Patents in Mexico',
+                title: 'Green patents in Mexico',
                 description: 'Analysis of green patents in Mexico',
                 content: [
                     {
@@ -50,12 +48,12 @@ export const publications: Publication[] = [
                     },
                     {
                         type: 'heading',
-                        content: 'Download our publication in this link',
+                        content: 'Download the English version of the publication in this link',
                         downloadKey: 'english-version'
                     },
                     {
                         type: 'heading',
-                        content: 'Descarga la versión en español de la publicación en este link',
+                        content: 'Download the Spanish version of the publication in this link',
                         downloadKey: 'spanish-version'
                     }
                 ],
@@ -81,7 +79,7 @@ export const publications: Publication[] = [
         },
         multilingual: {
             es: {
-                title: 'Mujeres Inventoras América Latina',
+                title: 'Mujeres inventoras América Latina',
                 description: 'Estudio sobre mujeres inventoras en América Latina',
                 content: [
                     {
@@ -95,7 +93,7 @@ export const publications: Publication[] = [
                     },
                     {
                         type: 'heading',
-                        content: 'Download the english version of the publication in this link',
+                        content: 'Download the English version of the publication in this link',
                         downloadKey: 'english-version'
                     },
                     {
@@ -107,7 +105,7 @@ export const publications: Publication[] = [
                 tags: ['Mujeres Inventoras', 'América Latina', 'Innovación']
             },
             en: {
-                title: 'Women Inventors Latin America',
+                title: 'Women inventors latin america',
                 description: 'Study on women inventors in Latin America',
                 content: [
                     {
@@ -116,12 +114,12 @@ export const publications: Publication[] = [
                     },
                     {
                         type: 'heading',
-                        content: 'Download our publication in this link',
+                        content: 'Download the English version of the publication in this link',
                         downloadKey: 'english-version'
                     },
                     {
                         type: 'heading',
-                        content: 'Descarga la versión en español de la publicación en este link',
+                        content: 'Download the Spanish version of the publication in this link',
                         downloadKey: 'spanish-version'
                     },
                     {
@@ -151,7 +149,7 @@ export const publications: Publication[] = [
         },
         multilingual: {
           es: {
-            title: 'PROBABILIDAD Y EFECTO DEL COVID-19 EN LA AUTOMATIZACIÓN DE EMPLEOS EN LA ECONOMÍA CREATIVA DE MÉXICO',
+            title: 'Probabilidad y efecto del COVID-19 en la automatización de empleos en la economía creativa de México',
             description: 'Análisis del impacto del COVID-19 en la automatización de empleos del sector creativo',
             content: [
               {
@@ -165,14 +163,14 @@ export const publications: Publication[] = [
               },
               {
                 type: 'heading',
-                content: 'Download the english version of the publication in this link',
+                content: 'Download the English version of the publication in this link',
                 downloadKey: 'english-version'
               }
             ],
             tags: ['COVID-19', 'Automatización', 'Economía Creativa']
           },
           en: {
-            title: 'PROBABILITY AND EFFECT OF COVID-19 ON JOB AUTOMATION IN MEXICO’S CREATIVE ECONOMY',
+            title: 'Probability and effect of COVID-19 on job automation in Mexico’s creative ecomony',
             description: 'Analysis of the impact of COVID-19 on job automation in the creative sector',
             content: [
               {
@@ -181,12 +179,12 @@ export const publications: Publication[] = [
               },
               {
                 type: 'heading',
-                content: 'Download our publication in this link',
+                content: 'Download the English version of the publication in this link',
                 downloadKey: 'english-version'
               },
               {
                 type: 'heading',
-                content: 'Descarga la versión en español de la publicación en este link',
+                content: 'Download the Spanish version of the publication in this link',
                 downloadKey: 'spanish-version'
               }
             ],
@@ -211,7 +209,7 @@ export const publications: Publication[] = [
         },
         multilingual: {
           es: {
-            title: 'Economía Creativa: México y su impacto en la economía nacional',
+            title: 'Economía creativa: México y su impacto en la economía nacional',
             description: 'Análisis del impacto de la economía creativa en México',
             content: [
               {
@@ -225,14 +223,14 @@ export const publications: Publication[] = [
               },
               {
                 type: 'heading',
-                content: 'Download the english version of the publication in this link',
+                content: 'Download the English version of the publication in this link',
                 downloadKey: 'english-version'
               }
             ],
             tags: ['Economía Creativa', 'México', 'Impacto Económico']
           },
           en: {
-            title: 'Creative Economy: Mexico and Its Impact on the National Economy',
+            title: 'Creative economy: Mexico and its impact on the national economy',
             description: 'Analysis of the impact of the creative economy in Mexico',
             content: [
               {
@@ -241,12 +239,12 @@ export const publications: Publication[] = [
               },
               {
                 type: 'heading',
-                content: 'Download our publication in this link',
+                content: 'Download the English version of the publication in this link',
                 downloadKey: 'english-version'
               },
               {
                 type: 'heading',
-                content: 'Descarga la versión en español de la publicación en este link',
+                content: 'Download the Spanish version of the publication in this link',
                 downloadKey: 'spanish-version'
               }
             ],
@@ -295,14 +293,14 @@ export const publications: Publication[] = [
               },
               {
                 type: 'heading',
-                content: 'Download the english version of the publication in this link',
+                content: 'Download the English version of the publication in this link',
                 downloadKey: 'english-version'
               }
             ],
             tags: ['Economía Creativa', 'Innovación']
           },
           en: {
-            title: 'Creative Economy',
+            title: 'Knowledge economy and creative economy as tools to overcome the crisis generated by COVID-19 in Latin America and the Caribbean: a focus on the Pacific Alliance',
             description: 'Study on the creative economy',
             content: [
               {
@@ -311,12 +309,12 @@ export const publications: Publication[] = [
               },
               {
                 type: 'heading',
-                content: 'Download our publication in this link',
+                content: 'Download the English version of the publication in this link',
                 downloadKey: 'english-version'
               },
               {
                 type: 'heading',
-                content: 'Descarga la versión en español de la publicación en este link',
+                content: 'Download the Spanish version of the publication in this link',
                 downloadKey: 'spanish-version'
               }
             ],
@@ -433,47 +431,6 @@ export const publications: Publication[] = [
           }
         }
       },
-      {
-        id: '8',
-        slug: 'convocatoria-a-investigadores',
-        date: '',
-        media: [
-          {
-            type: 'image',
-            url: '/publications/convocatoria-a-investigadores.png',
-            alt: 'Convocatoria a Investigadores'
-          }
-        ],
-        downloadLink: {
-          'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2021/06/Convocatoria-a-Investigadores.pdf'
-        },
-        multilingual: {
-          es: {
-            title: 'Convocatoria a Investigadores',
-            description: 'Propuestas para la recuperación de América Latina y el Caribe',
-            content: [
-              {
-                type: 'heading',
-                content: 'Descarga nuestra publicación en este link',
-                downloadKey: 'spanish-version'
-              }
-            ],
-            tags: ['Convocatoria', 'Investigación', 'América Latina']
-          },
-          en: {
-            title: 'Call for Researchers',
-            description: 'Proposals for the recovery of Latin America and the Caribbean',
-            content: [
-              {
-                type: 'heading',
-                content: 'Download our publication at this link',
-                downloadKey: 'spanish-version'
-              }
-            ],
-            tags: ['Call', 'Research', 'Latin America']
-          }
-        }
-      },
       /*{
         id: '11',
         slug: 'alumni-engagement-innovation-found',
@@ -503,7 +460,7 @@ export const publications: Publication[] = [
       {
         id: '13',
         slug: 'propiedad-intelectual-creatividad',
-        date: '',
+        date: '2017',
         media: [
           {
             type: 'image',
@@ -530,7 +487,7 @@ export const publications: Publication[] = [
             content: [
               {
                 type: 'heading',
-                content: 'Download our publication at this link',
+                content: 'Download our publication in this link',
                 downloadKey: 'spanish-version'
               }
             ],
@@ -559,7 +516,7 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'Formación Ciudadana para Emprendedores',
+        title: 'Formación ciudadana para emprendedores',
         description: '',
         content: [
           {
@@ -624,35 +581,9 @@ export const publications: Publication[] = [
     }
   },
   {
-    id: '17',
-    slug: 'panorama-estatal-ciencia-tecnologia',
-    date: '',
-    media: [
-      {
-        type: 'image',
-        url: '/publications/panorama-ciencia-tecnologia.png',
-        alt: 'Panorama estatal de Ciencia, Tecnología e Innovación'
-      }
-    ],
-    multilingual: {
-      es: {
-        title: 'Panorama estatal de Ciencia, Tecnología e Innovación',
-        description: '',
-        content: [],
-        tags: ['Ciencia', 'Tecnología', 'Innovación']
-      },
-      en: {
-        title: 'State Panorama of Science, Technology, and Innovation',
-        description: '',
-        content: [],
-        tags: ['Science', 'Technology', 'Innovation']
-      }
-    }
-  },
-  {
     id: '18',
     slug: 'habilidades-para-la-innovacion',
-    date: '',
+    date: '2016',
     media: [
       {
         type: 'image',
@@ -679,7 +610,7 @@ export const publications: Publication[] = [
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download our publication in this link',
             downloadKey: 'spanish-version'
           }
         ],
@@ -703,7 +634,7 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'Índice Nacional de Ciencia, Tecnología e Innovación 2025',
+        title: 'Índice nacional de ciencia, tecnología e innovación 2025',
         description: '',
         content: [
           {
@@ -715,12 +646,12 @@ export const publications: Publication[] = [
         tags: ['Habilidades', 'Innovación']
       },
       en: {
-        title: 'National Index of Science, Technology and Innovation 2025',
+        title: 'National index of science, technology and innovation 2025',
         description: '',
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download our publication in this link',
             downloadKey: 'spanish-version'
           }
         ],
@@ -749,7 +680,7 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'Índice Nacional de Ciencia, Tecnología e Innovación 2018',
+        title: 'Índice nacional de ciencia, tecnología e innovación 2018',
         description: '',
         content: [
           {
@@ -771,7 +702,7 @@ export const publications: Publication[] = [
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download our publication in this link',
             downloadKey: 'english-version'
           },
           {
@@ -802,7 +733,7 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'Índice Nacional de Ciencia, Tecnología e Innovación 2015',
+        title: 'Índice nacional de ciencia, tecnología e innovación 2015',
         description: '',
         content: [
           {
@@ -814,12 +745,12 @@ export const publications: Publication[] = [
         tags: ['Habilidades', 'Innovación']
       },
       en: {
-        title: 'National Index of Science, Technology and Innovation 2015',
+        title: 'National index of science, technology and innovation 2015',
         description: '',
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download our publication in this link',
             downloadKey: 'english-version'
           }
         ],
@@ -844,7 +775,7 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'PANORAMA DE LA PROPIEDAD INTELECTUAL EN MÉXICO: OTRA PERSPECTIVA',
+        title: 'Panorama de la propiedad intelectual en México: otra perspectiva',
         description: '',
         content: [
           {
@@ -856,12 +787,12 @@ export const publications: Publication[] = [
         tags: ['Habilidades', 'Innovación']
       },
       en: {
-        title: 'INTELLECTUAL PROPERTY OVERVIEW IN MEXICO: ANOTHER PERSPECTIVE',
+        title: 'Intellectual property landscape in Mexico: another perspective',
         description: '',
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download our publication in this link',
             downloadKey: 'spanish-version'
           }
         ],
@@ -885,7 +816,7 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'EMPRENDIMIENTO Y GÉNERO EN MÉXICO',
+        title: 'Emprendimiento y género en México',
         description: '',
         content: [
           {
@@ -897,12 +828,12 @@ export const publications: Publication[] = [
         tags: ['Habilidades', 'Innovación']
       },
       en: {
-        title: 'ENTREPRENEURSHIP AND GENDER IN MEXICO',
+        title: 'Entrepreneurship and gender in Mexico',
         description: '',
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download our publication in this link',
             downloadKey: 'spanish-version'
           }
         ],
@@ -926,7 +857,7 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'PATENTES VERDES EN EL PAÍS',
+        title: 'Patentes verdes en el país',
         description: '',
         content: [
           {
@@ -938,12 +869,12 @@ export const publications: Publication[] = [
         tags: ['Patentes', 'Innovación', 'Sustentabilidad', 'Medio Ambiente']
       },
       en: {
-        title: 'GREEN PATENTS IN THE COUNTRY',
+        title: 'Green patents in the country',
         description: '',
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download our publication in this link',
             downloadKey: 'spanish-version'
           }
         ],
@@ -957,7 +888,7 @@ export const publications: Publication[] = [
   {
     id: '25',
     slug: 'mujeres-inventoras-patentando-en-mexico',
-    date: '2018',
+    date: '2015',
     media: [
       {
         type: 'image',
@@ -967,13 +898,18 @@ export const publications: Publication[] = [
     ],
     multilingual: {
       es: {
-        title: 'Mujeres Inventoras: Patentando en México ¿Cómo vamos?',
+        title: 'Mujeres inventoras: Patentando en México ¿Cómo vamos?',
         description: '',
         content: [
           {
             type: 'heading',
             content: 'Descarga nuestra publicación en este link',
             downloadKey: 'spanish-version'
+          },
+          {
+            type: 'heading',
+            content: 'Download the English version of the publication in this link',
+            downloadKey: 'english-version'
           }
         ],
         tags: ['Patentes', 'Innovación', 'Mujeres', 'Inventoras']
@@ -984,7 +920,7 @@ export const publications: Publication[] = [
         content: [
           {
             type: 'heading',
-            content: 'Download our publication at this link',
+            content: 'Download the English version of the publication in this link',
             downloadKey: 'english-version'
           }
         ],
@@ -996,99 +932,134 @@ export const publications: Publication[] = [
       'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2018/12/Mujeres-Inventoras.pdf',
       'english-version': 'https://www.caiinno.org/wp-content/uploads/2020/07/Women-inventors.pdf'
     }
-  }
-];
-
-
-/*{
-    id: '9',
-    slug: 'mapa-del-seguimiento-al-covid',
-    title: 'Mapa del seguimiento al covid',
-    date: '', // Add date if available
-    description: 'Mapa de seguimiento al COVID-19 en México con datos oficiales',
+  },
+    {
+    id: '26',
+    slug: 'formacion-civica-y-etica-en-mexico',
+    date: '2017',
     media: [
       {
         type: 'image',
-        url: '/publications/covid.png',
-        alt: 'Mapa de seguimiento al COVID-19'
+        url: '/publications/FormacionCivicaYEticaEnMexico.png',
+        alt: 'Formación Cívica y Ética en México'
       }
     ],
-    content: [
-      {
-        type: 'paragraph',
-        content: 'El presente es un esfuerzo desde la sociedad civil organizada, para que los ciudadanos puedan visualizar de una forma práctica y sencilla con información oficial del gobierno mexicano, cuál es el desempeño del virus en el país.'
+    multilingual: {
+      es: {
+        title: 'Formación cívica y ética en México',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Formación Cívica', 'Ética', 'Educación', 'Innovación']
       },
-      {
-        type: 'paragraph',
-        content: 'ÚNICAMENTE se utilizan como fuente los datos de la Secretaria de Salud del Gobierno Federal, disponibles en la siguiente liga: Datos Abiertos – Dirección General de Epidemiología'
+      en: {
+        title: 'Civic and Ethical Education in Mexico',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication in this link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Innovation', 'Civic Education', 'Ethics', 'Education']
+      
       },
-      {
-        type: 'paragraph',
-        content: 'Los datos se están actualizando todos los días a las 20:00 horas, tiempo del centro de México.'
-      }
-    ],
-    tags: ['COVID-19', 'Mapa', 'Datos']
-  },*/
-
-/*{
-    id: '12',
-    slug: 'invenciones-y-genero',
-    title: 'Invenciones y género en México a nivel estatal',
-    date: '', // Add date if available
-    description: 'Estadísticas sobre el papel de las inventoras en la propiedad industrial en México',
-    media: [
-      {
-        type: 'image',
-        url: '/publications/invenciones-genero.png',
-        alt: 'Invenciones y género en México'
-      }
-    ],
-    content: [
-      {
-        type: 'paragraph',
-        content: 'La siguiente información estadística que presenta CAIINNO, representa el esfuerzo por concentrar en un sólo lugar la mayor cantidad de información estadística referente al papel de las inventoras dentro de la propiedad industrial en México.'
-      },
-      {
-        type: 'paragraph',
-        content: 'Nota técnica: los datos dentro el gráfico interactivo están expresados en número de invenciones y no en número de inventoras que aparecen en la solicitud de patente.'
-      }
-    ],
-    tags: ['Invenciones', 'Género', 'Patentes', 'Mujeres Inventoras']
-  },*/
-
-  /*
-  {
-    id: '14',
-    slug: 'financiamiento-para-emprendedores',
-    title: 'Recursos y financiamiento para emprendedores',
-    date: '', // Add date if available
-    description: '', // Add description if available
-    media: [
-      {
-        type: 'image',
-        url: '/publications/financiamiento-emprendedores.png',
-        alt: 'Financiamiento para emprendedores'
-      }
-    ],
-    content: [], // Add content if available
-    tags: ['Financiamiento', 'Emprendedores']
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2017/07/formacion-civica1.pdf'
+    }
   },
   {
-    id: '15',
-    slug: 'emprendedores-america-latina',
-    title: 'Emprendedores América Latina',
-    date: '', // Add date if available
-    description: '', // Add description if available
+    id: '27',
+    slug: 'observatorio-electoral-ciencia-tecnologia-2014-2015',
+    date: '2015',
     media: [
       {
         type: 'image',
-        url: '/publications/financiamiento-emprendedores-latam.png',
-        alt: 'Emprendedores América Latina'
+        url: '/publications/ObservatorioElectoralDeCienciaTecnologiaRamo381415.png',
+        alt: 'Observatorio Electoral de Ciencia y Tecnología Ramo 38'
       }
     ],
-    content: [], // Add content if available
-    tags: ['Emprendedores', 'América Latina']
-  },*/
+    multilingual: {
+      es: {
+        title: 'Observatorio Electoral de Ciencia y Tecnología Ramo 38 (2014-2015)',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Observatorio Electoral', 'Ciencia', 'Tecnología', 'Ramo 38']
+      },
+      en: {
+        title: 'Electoral Observatory of Science and Technology Branch 38 (2014-2015)',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication in this link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Electoral Observatory', 'Science', 'Technology', 'Branch 38']
+      
+      },
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2016/03/Publicaci%C3%B3n-ramo38.pdf'
+    }
+  },
+  {
+    id: '28',
+    slug: 'observatorio-electoral-ciencia-tecnologia-2016-2017',
+    date: '2017',
+    media: [
+      {
+        type: 'image',
+        url: '/publications/ObservatorioElectoralDeCienciaTecnologiaRamo381617.png',
+        alt: 'Observatorio Electoral de Ciencia y Tecnología Ramo 38'
+      }
+    ],
+    multilingual: {
+      es: {
+        title: 'Observatorio Electoral de Ciencia y Tecnología Ramo 38 (2016-2017)',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Descarga nuestra publicación en este link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Observatorio Electoral', 'Ciencia', 'Tecnología', 'Ramo 38']
+      },
+      en: {
+        title: 'Electoral Observatory of Science and Technology Branch 38 (2016-2017)',
+        description: '',
+        content: [
+          {
+            type: 'heading',
+            content: 'Download our publication in this link',
+            downloadKey: 'spanish-version'
+          }
+        ],
+        tags: ['Electoral Observatory', 'Science', 'Technology', 'Branch 38']
+      
+      },
+    },
+    downloadLink: {
+      'spanish-version': 'https://www.caiinno.org/wp-content/uploads/2018/12/RAMO-38-2016-2017.pdf'
+    }
+  }
+];
 
 
 
