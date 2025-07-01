@@ -149,7 +149,7 @@ export default function Home() {
           <div className="flex justify-center items-center mt-10 sm:mt-16 md:mt-20">
             <Link
               href="/impacto"
-              className="inline-block px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+              className="group inline-flex items-center gap-3 px-8 py-4 sm:px-10 sm:py-5 md:px-12 md:py-6 text-base sm:text-lg md:text-xl lg:text-2xl bg-quienes-somos-button text-white font-semibold rounded-xl hover:bg-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 ease-out"
             >
               Saber más
             </Link>

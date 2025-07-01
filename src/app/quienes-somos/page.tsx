@@ -13,7 +13,7 @@ export default function QuienesSomos() {
         <LazyYouTube id="0DRcerJtk_c" />
       </div>
 
-      <div className="w-full relative">
+      <div className="w-full relative px-1 md:px-0">
         <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative mt-12">
           <Image
             src="/¿QUÉ PRETENDEMOS_.png" 
@@ -39,7 +39,7 @@ export default function QuienesSomos() {
       </div>
     </div>
     <div className="container mx-auto px-4 py-12 sm:py-16 max-w-5xl">
-      
+
     <div className="text-center">
       <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6">
         Explora nuestro trabajo

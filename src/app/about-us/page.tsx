@@ -34,7 +34,7 @@ export default function AboutUs() {
       </div>
 
       {/* Full-width images */}
-      <div className="flex flex-col">
+      <div className="flex flex-col px-1 md:px-0">
         <div className="w-full relative">
           <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
             <Image
@@ -59,6 +59,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      
       <div className="container mx-auto px-4 py-16 max-w-5xl">
         <div className="text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6">
