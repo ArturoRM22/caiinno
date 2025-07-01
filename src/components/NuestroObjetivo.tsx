@@ -26,17 +26,17 @@ const NuestroObjetivo = () => {
       </div>
       
       <div className="container mx-auto text-white relative z-10 px-4 md:px-8">
-        <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-10 md:mb-20">NUESTRO OBJETIVO</h2>
+        <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-10 md:mb-25">NUESTRO OBJETIVO</h2>
 
-        <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-justify">
+        <p className="text-xl md:text-2xl lg:text-3xl mb-20 text-justify">
           Ayudar a resolver algunos de los retos que enfrenta México en 9 áreas, a través de investigaciones, propuestas y ejecución de proyectos, que permitan tener un país más transparente, incluyente e innovador. Para ello aplicamos los principios de la INNOVACIÓN así como nuestra experiencia y conocimientos.
         </p>
 
-        <p className="text-xl md:text-2xl lg:text-3xl mb-10 md:mb-16 font-bold text-center">
+        <p className="text-xl md:text-2xl lg:text-3xl mb-20 font-bold text-center">
           Además, buscamos que nuestros proyectos tengan un enfoque transversal que beneficie e impacte a las 9 áreas de trabajo:
         </p>
 
-        <div className="grid grid-cols-3 md:grid-cols-9 gap-6 justify-items-center mb-10 md:mb-16">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-6 justify-items-center mb-10 md:mb-16">
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
                 <FaBalanceScale className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Política pública y Estado de Derecho</span>
@@ -81,15 +81,6 @@ const NuestroObjetivo = () => {
                 <FaRegHandBackFist className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Participación Ciudadana y Democracia</span>
             </div>
-        </div>
-
-        <div className="flex justify-center items-center mt-10 md:mt-20">
-          <Link
-            href="/nuestro-objetivo"
-            className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
-          >
-            Saber más
-          </Link>
         </div>
       </div>
     </section>

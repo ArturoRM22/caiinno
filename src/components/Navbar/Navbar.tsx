@@ -30,7 +30,7 @@ export default function Navbar() {
       {/* Desktop/Tablet Navbar */}
       <nav className="hidden md:block w-full">
         <div className="flex flex-wrap justify-center px-2 md:px-4 lg:px-6">
-          <div className="grid grid-cols-4 md:grid-cols-8 gap-x-3 md:gap-x-4 lg:gap-x-5 gap-y-2 text-sm md:text-base">
+          <div className="flex flex-wrap justify-center gap-x-15 md:gap-x-8 gap-y-2 text-xl">
             <Link href="/" className="hover:underline text-center">Inicio</Link>
             <Link href="/quienes-somos" className="hover:underline text-center">¿Quiénes somos?</Link>
             <Link href="/about-us" className="hover:underline text-center">About us</Link>
@@ -38,9 +38,8 @@ export default function Navbar() {
             <Link href="/events" className="hover:underline text-center">Eventos</Link>
             <Link href="/publicaciones" className="hover:underline text-center">Publicaciones</Link>
             <Link href="/impacto" className="hover:underline text-center">Impacto</Link>
-            <Link href="#contacto" className="hover:underline text-center">Contacto</Link>
           </div>
-        </div>
+        </div>  
       </nav>
 
       {/* Mobile Hamburger Menu */}
@@ -66,7 +65,6 @@ export default function Navbar() {
             <Link href="/events" className="hover:underline w-full py-2" onClick={() => setIsMenuOpen(false)}>Eventos</Link>
             <Link href="/publicaciones" className="hover:underline w-full py-2" onClick={() => setIsMenuOpen(false)}>Publicaciones</Link>
             <Link href="/impacto" className="hover:underline w-full py-2" onClick={() => setIsMenuOpen(false)}>Impacto</Link>
-            <Link href="#contacto" className="hover:underline w-full py-2" onClick={() => setIsMenuOpen(false)}>Contacto</Link>
           </div>
         </nav>
       )}

@@ -3,6 +3,7 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import SecondaryNavbar from "@/components/SecondaryNavbar";
 
 const inter = Inter({
   variable: "--font-geist-sans", // Keep the same variable name for minimal CSS changes
@@ -30,6 +31,7 @@ export default function RootLayout({
         className={`${inter.variable} ${robotoMono.variable} antialiased`}
       >
         <Navbar/>
+        <SecondaryNavbar/>
         {children}
         <Footer/>
       </body>
