@@ -43,10 +43,12 @@ export default function TeamSection({ language }: TeamSectionProps) {
         </svg>
       </button>
       
-      <div 
-        id={`member-content-${index}`}
-        className={`prose px-4 pb-4 transition-all duration-300 ${isActive ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
-      >
+        <div 
+          id={`member-content-${index}`}
+          className={`prose px-4 pb-4 transition-opacity duration-300 ${
+            isActive ? 'opacity-100' : 'opacity-0 hidden'
+          }`}
+        >
         {member.bio.map((paragraph, pIndex) => (
           <p key={pIndex} className="mb-4">{paragraph}</p>
         ))}

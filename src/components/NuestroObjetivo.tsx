@@ -38,47 +38,47 @@ const NuestroObjetivo = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-6 justify-items-center mb-10 md:mb-16">
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <FaBalanceScale className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <FaBalanceScale className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Política pública y Estado de Derecho</span>
             </div>
             
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <IoBarChartSharp className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <IoBarChartSharp className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Economía y Desarrollo</span>
             </div>
             
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <LiaLightbulb className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <LiaLightbulb className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Propiedad Intelectual</span>
             </div>
             
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <BsGenderAmbiguous className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <BsGenderAmbiguous className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Género</span>
             </div>
             
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <BsRocket className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <BsRocket className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Emprendimiento y Negocio</span>
             </div>
             
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <RiComputerLine className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <RiComputerLine className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Transparencia y Responsabilidad Del Gobierno</span>
             </div>
             
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <IoBookOutline className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <IoBookOutline className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Educación</span>
             </div>
             
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <GiAtom className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <GiAtom className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Ciencia, Tecnología e Innovación</span>
             </div>
 
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
-                <FaRegHandBackFist className="text-4xl md:text-5xl lg:text-6xl text-white group-hover:text-white transition-colors duration-300" />
+                <FaRegHandBackFist className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Participación Ciudadana y Democracia</span>
             </div>
         </div>

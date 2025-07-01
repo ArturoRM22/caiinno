@@ -56,84 +56,55 @@ export default function Home() {
       </section>
       */}
 
-      <section id="quienes-somos" className="relative lg:min-h-screen pb-10 pt-10 md:pt-20 overflow-hidden">
-  {/* DNA images - hidden on mobile */}
-  <img
-    src="/DNA.svg"
-    alt="DNA background"
-    className="hidden lg:block absolute bottom-[10%] left-[10%] w-[30%] max-w-[500px] opacity-80 pointer-events-none"
-  />
-  <img
-    src="/DNA.svg"
-    alt="DNA background"
-    className="hidden lg:block absolute top-[40%] right-[10%] w-[30%] max-w-[500px] opacity-30 pointer-events-none"
-  />
+      <section id="quienes-somos" className="relative lg:min-h-screen py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden">
+        <img
+          src="/DNA.svg"
+          alt="DNA background"
+          className="hidden lg:block absolute bottom-[8%] left-[8%] w-[28%] max-w-[450px] opacity-70 pointer-events-none transform rotate-12"
+        />
+        <img
+          src="/DNA.svg"
+          alt="DNA background"
+          className="hidden lg:block absolute top-[35%] right-[8%] w-[25%] max-w-[400px] opacity-25 pointer-events-none transform -rotate-12"
+        />
 
-  <div className="container mx-auto px-4 sm:px-6 relative z-10 text-quienes-somos flex flex-col gap-8 lg:gap-12">
-    
-    {/* Row with Title and Paragraph - Adjusted spacing */}
-    <div className="flex flex-col lg:flex-row items-start gap-4 lg:gap-8 xl:gap-12">
-      
-      {/* Title on the left */}
-      <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold lg:whitespace-nowrap lg:w-[40%]">
-        ¿QUIÉNES<br />SOMOS?
-      </h2>
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-quienes-somos">
+          <div className="max-w-7xl mx-auto space-y-12 md:space-y-16 lg:space-y-20">
+            <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-12 xl:gap-16">
+              
+              <div className="lg:w-[35%] xl:w-[40%]">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight lg:leading-none">
+                  ¿QUIÉNES<br />SOMOS?
+                </h2>
+              </div>
 
-      {/* Description on the right */}
-      <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl lg:w-[60%]">
-        CAIINNO es una think tank constituida por personas que viven en México después de terminar estudios de posgrado en el extranjero, buscando generar un cambio positivo en México, aprovechando su experiencia, conocimiento y contactos obtenidos, principalmente como beneficiarios de la beca Fulbright.
-      </p>
-    </div>
+              <div className="lg:w-[65%] xl:w-[60%]">
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-relaxed lg:leading-relaxed">
+                  CAIINNO es una <span className="font-semibold">think tank</span> constituida por personas que viven en México después de terminar estudios de posgrado en el extranjero, buscando generar un <span className="font-semibold">cambio positivo en México</span>, aprovechando su experiencia, conocimiento y contactos obtenidos, principalmente como beneficiarios de la <span className="font-semibold">beca Fulbright</span>.
+                </p>
+              </div>
+            </div>
 
-    {/* Subtitle and Button Centered Below */}
-    <div className="flex flex-col items-center text-center gap-6 md:gap-8 mt-8 md:mt-12">
-      <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold">
-        CAIINNO: Innovación que transforma México.
-      </p>
-      <Link
-        href="/quienes-somos"
-        className="inline-block px-6 py-3 sm:px-10 sm:py-4 text-lg sm:text-xl md:text-2xl bg-quienes-somos-button text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
-      >
-        Saber más
-      </Link>
-    </div>
-  </div>
-</section>
-
-      {/*
-      <section id="nuestro-objetivo" className="min-h-screen bg-que-hacemos pb-10 pt-20">
-      <div className="container mx-auto text-white">
-          <h2 className="text-5xl font-bold mb-20">NUESTRO OBJETIVO</h2>
-
-          <p className="text-3xl mb-8 text-justify">
-            Ayudar a resolver algunos de los retos que enfrenta México en 9 áreas, a través de investigaciones, propuestas y ejecución de proyectos, que permitan tener un país más transparente, incluyente e innovador. Para ello aplicamos los principios de la INNOVACIÓN así como nuestra experiencia y conocimientos.
-          </p>
-
-          <p className="text-3xl mb-18 text-center font-bold text-justify">
-            Además, buscamos que nuestros proyectos tengan un enfoque transversal que beneficie e impacte a las 9 áreas de trabajo:
-          </p>
-
-          <div className="w-full flex justify-center items-center gap-4">
-            <Image
-              src="/9areas.jpg"
-              alt="9 areas"
-              width={1000}
-              height={100}
-              priority
-            />
-          </div>
-
-          <div className="flex justify-center items-center mt-20">
-            <Link
-            href="/nuestro-objetivo"
-            className="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
-            >
-              Saber más
-            </Link>
+            <div className="flex flex-col items-center text-center space-y-8 md:space-y-10 lg:space-y-12 pt-8 md:pt-12 lg:pt-16">
+              
+              <div className="max-w-4xl mx-auto">
+                <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
+                  CAIINNO: Innovación que transforma México.
+                </p>
+              </div>
+              
+              <div className="pt-4">
+                <Link
+                  href="/quienes-somos"
+                  className="group inline-flex items-center gap-3 px-8 py-4 sm:px-10 sm:py-5 md:px-12 md:py-6 text-base sm:text-lg md:text-xl lg:text-2xl bg-quienes-somos-button text-white font-semibold rounded-xl hover:bg-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 ease-out"
+                >
+                  Saber más
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      */}
 
     <NuestroObjetivo/>
 
